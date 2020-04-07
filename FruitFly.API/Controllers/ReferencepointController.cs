@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FruitFly.API.Authorization;
 using FruitFly.Repository.Models;
 using FruitFly.Service.Interfaces;
 using FruitFly.Service.Services;
@@ -13,6 +14,7 @@ namespace FruitFly.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiKeyAuth]
     public class ReferencepointController : ControllerBase
     {
         private readonly IReferencepointService _referencepointService;
