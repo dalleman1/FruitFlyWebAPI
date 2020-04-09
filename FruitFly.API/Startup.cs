@@ -20,6 +20,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.VisualBasic;
 
 namespace FruitFly.API
 {
@@ -45,12 +46,37 @@ namespace FruitFly.API
             services.AddDbContext<FruitFlyContext>(options =>
             options.UseSqlServer(
             Configuration.GetConnectionString("FruitFlyConnection")));
+
             #region Swagger
 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FruitFly Database", Version = "v1" });
-               
+
+                c.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme()
+                {
+                    Name = "ApiKey",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Description = "Authorization by ApiKey inside request's header",
+                    Scheme = "ApiKeyScheme"
+                });
+
+                var key = new OpenApiSecurityScheme()
+                {
+                    Reference = new OpenApiReference
+                    {
+                        Type = ReferenceType.SecurityScheme,
+                        Id = "ApiKey"
+                    },
+                    In = ParameterLocation.Header
+                };
+                var requirement = new OpenApiSecurityRequirement
+                {
+                   { key, new List<string>() }
+                };
+                c.AddSecurityRequirement(requirement);
+
                 // Include comments from XML/Controller summaries
                 var filePath = Path.Combine(AppContext.BaseDirectory, "FruitFly.API.xml");
                 c.IncludeXmlComments(filePath);
@@ -61,7 +87,7 @@ namespace FruitFly.API
             #endregion
 
             services.AddControllers().AddNewtonsoftJson(options => // Avoids infinite loop if navigation object has a navigation object back as well
-                         options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+                     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 
         }

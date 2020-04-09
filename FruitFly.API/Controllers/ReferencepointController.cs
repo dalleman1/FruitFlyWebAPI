@@ -50,9 +50,9 @@ namespace FruitFly.API.Controllers
             Referencepoint _referencepoint = await _referencepointService.AddAsync(referencepoint);
             if (_referencepoint == null)
             {
-                return StatusCode(400);
+                return BadRequest();
             }
-            return StatusCode(201);
+            return CreatedAtAction(nameof(Get), _referencepoint);
         }
 
         // PUT api/referencepoint/5

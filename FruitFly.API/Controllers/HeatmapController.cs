@@ -52,9 +52,9 @@ namespace FruitFly.API.Controllers
             Heatmap _heatmap = await _heatmapService.AddAsync(heatmap);
             if (_heatmap == null)
             {
-                return StatusCode(400);
+                return NotFound();
             }
-            return StatusCode(201);
+            return CreatedAtAction(nameof(Get), _heatmap);
         }
 
         // PUT api/heatmap/5
@@ -82,5 +82,17 @@ namespace FruitFly.API.Controllers
             await _heatmapService.RemoveAsync(heatmap);
             return NoContent();
         }
+
+
+        //THIS IS BAD PRACTICE / GARBAGE / NO BUENO
+        //Delete api/heatmap/
+        [HttpDelete]
+        public async Task<ActionResult<List<Heatmap>>> Delete()
+        {
+            await _heatmapService.RemoveAllAsync();
+            return Ok();
+        }
+
+
     }
 }

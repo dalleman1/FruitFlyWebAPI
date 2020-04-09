@@ -55,6 +55,12 @@ namespace FruitFly.Service.Services
             return await _crudRepository.RemoveAsync(entity);
         }
 
+        public async Task<bool> RemoveAllAsync()
+        {
+            List<T> entities = await _crudRepository.GetAllAsync();
+            return await _crudRepository.RemoveRangeAsync(entities);
+        }
+
         public async Task<bool> UpdateAsync(T entity)
         {
             return await _crudRepository.UpdateAsync(entity);

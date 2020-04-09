@@ -113,6 +113,12 @@ namespace FruitFly.Repository.Repositories
             return await _context.SaveChangesAsync() > 0;
         }
 
+        virtual public async Task<bool> RemoveRangeAsync(List<T> entities)
+        {
+            _context.Set<T>().RemoveRange(entities);
+            return await _context.SaveChangesAsync() > 0;
+        }
+
         virtual public async Task<bool> UpdateAsync(T entity)
         {
             _context.Set<T>().Update(entity);

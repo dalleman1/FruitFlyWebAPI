@@ -16,6 +16,7 @@ namespace FruitFly.Repository.Interfaces
         Task<T> GetByIdAsync(int id);
         Task<bool> RemoveAsync(int id);
         Task<bool> RemoveAsync(T entity);
+        Task<bool> RemoveRangeAsync(List<T> entities);
         Task<bool> UpdateAsync(T entity);
     }
 }

@@ -16,6 +16,7 @@ namespace FruitFly.Service.Interfaces
         Task<T> GetByIdAsync(int id);
         Task<bool> RemoveAsync(int id);
         Task<bool> RemoveAsync(T entity);
+        Task<bool> RemoveAllAsync();
         Task<bool> UpdateAsync(T entity);
     }
 }
