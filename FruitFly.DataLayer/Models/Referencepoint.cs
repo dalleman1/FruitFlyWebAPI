@@ -20,7 +20,7 @@ namespace FruitFly.Repository.Models
 
 		public int Y { get; set; }
 
-		public int HeatmapId { get; set; }
+		//public int HeatmapId { get; set; }
 		public Heatmap Heatmap { get; set; }
 
 	}

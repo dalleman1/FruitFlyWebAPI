@@ -22,7 +22,7 @@ namespace FruitFly.Repository.Configurations
                     new Heatmap
                     {
                         HeatmapID = i,
-                        Strength = rand.Next(1, 10)
+                        ReferencepointId = i,
                     }
                     );
             }
