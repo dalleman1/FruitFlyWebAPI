@@ -80,5 +80,14 @@ namespace FruitFly.API.Controllers
             await _referencepointService.RemoveAsync(referencepoint);
             return NoContent();
         }
+
+        //THIS IS BAD PRACTICE / GARBAGE / NO BUENO
+        //Delete api/referencepoint
+        [HttpDelete]
+        public async Task<ActionResult<List<Heatmap>>> Delete()
+        {
+            await _referencepointService.RemoveAllAsync();
+            return Ok();
+        }
     }
 }
