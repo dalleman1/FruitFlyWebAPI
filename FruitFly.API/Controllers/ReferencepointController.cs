@@ -89,5 +89,13 @@ namespace FruitFly.API.Controllers
             await _referencepointService.RemoveAllAsync();
             return Ok();
         }
+
+        //Seed api/referencepoint
+        [HttpPut]
+        public async Task<IActionResult> Seed(string tablename)
+        {
+            await _referencepointService.ReSeedTable(tablename);
+            return Ok();
+        }
     }
 }

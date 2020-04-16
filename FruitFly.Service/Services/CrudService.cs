@@ -65,5 +65,10 @@ namespace FruitFly.Service.Services
         {
             return await _crudRepository.UpdateAsync(entity);
         }
+
+        public async Task<bool> ReSeedTable(string tablename)
+        {
+            return await _crudRepository.ReSeedTable(tablename);
+        }
     }
 }

@@ -124,5 +124,11 @@ namespace FruitFly.Repository.Repositories
             _context.Set<T>().Update(entity);
             return await _context.SaveChangesAsync() > 0;
         }
+
+        virtual public async Task<bool> ReSeedTable(string tablename)
+        {
+            _context.Database.ExecuteSqlRaw($"DBCC CHECKIDENT('{tablename}', RESEED, 0)");
+            return await _context.SaveChangesAsync() > 0;
+        }
     }
 }
