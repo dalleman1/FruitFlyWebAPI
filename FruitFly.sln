@@ -3,16 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitFly.API", "FruitFly.API\FruitFly.API.csproj", "{45849D57-81B4-4B46-BEAC-D0E75DA171DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitFly.API", "FruitFly.API\FruitFly.API.csproj", "{45849D57-81B4-4B46-BEAC-D0E75DA171DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17BAC019-6997-451D-A24F-A9DD5EE4AAEE}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitFly.Repository", "FruitFly.DataLayer\FruitFly.Repository.csproj", "{83E2F3F0-3345-4EFC-9047-2C1BEA123213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitFly.Repository", "FruitFly.DataLayer\FruitFly.Repository.csproj", "{83E2F3F0-3345-4EFC-9047-2C1BEA123213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitFly.Service", "FruitFly.Service\FruitFly.Service.csproj", "{06E19390-15B9-4823-961B-91C01871CABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitFly.Service", "FruitFly.Service\FruitFly.Service.csproj", "{06E19390-15B9-4823-961B-91C01871CABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitFly.Test", "FruitFly.Test\FruitFly.Test.csproj", "{0C4A1F6B-D9AA-429B-9649-0C92DE41E360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{06E19390-15B9-4823-961B-91C01871CABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06E19390-15B9-4823-961B-91C01871CABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06E19390-15B9-4823-961B-91C01871CABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4A1F6B-D9AA-429B-9649-0C92DE41E360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4A1F6B-D9AA-429B-9649-0C92DE41E360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4A1F6B-D9AA-429B-9649-0C92DE41E360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4A1F6B-D9AA-429B-9649-0C92DE41E360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
