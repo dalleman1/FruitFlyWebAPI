@@ -11,6 +11,7 @@ namespace FruitFly.Repository.Repositories
 {
     public abstract class CrudRepository<T> : ICrudRepository<T> where T : class
     {
+
         private readonly DbContext _context;
 
         public CrudRepository(DbContext context)
@@ -103,8 +104,15 @@ namespace FruitFly.Repository.Repositories
         virtual public async Task<bool> RemoveAsync(int id)
         {
             T entity = await _context.Set<T>().FindAsync(id);
-            _context.Remove(entity);
-            return await _context.SaveChangesAsync() > 0;
+            if (entity != null)
+            {
+                _context.Remove(entity);
+                return await _context.SaveChangesAsync() > 0;
+            }
+            else
+            {
+                return true;
+            }
         }
 
         virtual public async Task<bool> RemoveAsync(T entity)

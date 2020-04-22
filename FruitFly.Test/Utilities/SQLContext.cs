@@ -11,18 +11,9 @@ namespace FruitFly.Test.Utilities
     {
         public static DbContextOptions<FruitFlyContext> TestDbContextOptions()
         {
-            // Create a new service provider to create a new SQL database.
-            var serviceProvider = new ServiceCollection()
-                .AddEntityFrameworkSqlServer()
-                .BuildServiceProvider();
-
-            // Create a new options instance using an SQL database and 
-            // IServiceProvider that the context should resolve all of its services from.
-            var builder = new DbContextOptionsBuilder<FruitFlyContext>()
-            .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Integrated Security = True")
-            .UseInternalServiceProvider(serviceProvider);
-
-            return builder.Options;
+            return new DbContextOptionsBuilder<FruitFlyContext>()
+            .UseInMemoryDatabase("FruitFlyTestDatabase5")
+            .Options;
         }
     }
 }
