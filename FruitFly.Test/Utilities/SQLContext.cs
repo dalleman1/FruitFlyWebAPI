@@ -12,7 +12,7 @@ namespace FruitFly.Test.Utilities
         public static DbContextOptions<FruitFlyContext> TestDbContextOptions()
         {
             return new DbContextOptionsBuilder<FruitFlyContext>()
-            .UseInMemoryDatabase("FruitFlyTestDatabase5")
+            .UseInMemoryDatabase("FruitFlyTestDatabase")
             .Options;
         }
     }
