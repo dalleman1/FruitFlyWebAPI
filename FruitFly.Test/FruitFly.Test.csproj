@@ -16,10 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FruitFly.DataLayer\FruitFly.Repository.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ServiceTest\" />
+    <ProjectReference Include="..\FruitFly.Service\FruitFly.Service.csproj" />
   </ItemGroup>
 
 </Project>

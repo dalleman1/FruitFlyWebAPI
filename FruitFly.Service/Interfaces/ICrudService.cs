@@ -18,6 +18,7 @@ namespace FruitFly.Service.Interfaces
         Task<bool> RemoveAsync(T entity);
         Task<bool> RemoveAllAsync();
         Task<bool> UpdateAsync(T entity);
+        Task<bool> RemoveRangeAsync(List<T> entities);
         Task<bool> ReSeedTable(string tablename);
     }
 }

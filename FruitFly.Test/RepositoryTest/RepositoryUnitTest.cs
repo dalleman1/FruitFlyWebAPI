@@ -15,12 +15,14 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace FruitFly.Test.RepositoryTest
 {
+    //This is a test suite for the repository functions - Tested with referencepoints
+    //In essence referencepoint and heatmaprepository does the same
     [TestFixture]
-    public class ReferencepointUnitTest
+    public class RepositoryUnitTest
     {
         private readonly FruitFlyContext _fruitFlyContext;
         private readonly ReferencepointRepository _referencepointRepository;
-        public ReferencepointUnitTest()
+        public RepositoryUnitTest()
         {
             _fruitFlyContext = new FruitFlyContext(SQLContext.TestDbContextOptions());
             _referencepointRepository = new ReferencepointRepository(_fruitFlyContext);
