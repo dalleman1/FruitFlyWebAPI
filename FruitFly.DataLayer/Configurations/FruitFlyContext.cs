@@ -23,6 +23,7 @@ namespace FruitFly.Repository.Configurations
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Heatmap>().HasOne(e => e.Referencepoint).WithMany();
             // Static data for testing purposes
             modelBuilder.ApplyConfiguration(new ReferencepointConfiguration());
             modelBuilder.ApplyConfiguration(new HeatmapConfiguration());

@@ -8,8 +8,6 @@ namespace FruitFly.Repository.Models
     public class Heatmap
     {
         public int HeatmapID { get; set; }
-
-        //public float Strength { get; set; }
        
         [ForeignKey("Referencepoint")]
         public int ReferencepointId { get; set; }
