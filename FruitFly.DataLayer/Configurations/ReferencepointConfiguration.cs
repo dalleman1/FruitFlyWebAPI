@@ -15,23 +15,74 @@ namespace FruitFly.Repository.Configurations
         public void Configure(EntityTypeBuilder<Referencepoint> entity)
         {
             var rand = new Random();
-            //250 referencepoints for testing
-            for (int i = 1; i < 250; i++)
-            {
-                entity.HasData(
-                    new Referencepoint
-                    {
-                        ReferencepointId = i,
-                        Category = rand.Next(1, 10),
-                        RSSI1 = rand.Next(1, 100),
-                        RSSI2 = rand.Next(1, 100),
-                        RSSI3 = rand.Next(1, 100),
-                        X = rand.Next(1, 100),
-                        Y = rand.Next(1, 100),
-                        //HeatmapId = i,
-                    }
-                    );
-            }
+            ////250 referencepoints for testing
+            //for (int i = 1; i < 250; i++)
+            //{
+            //    entity.HasData(
+            //        new Referencepoint
+            //        {
+            //            ReferencepointId = i,
+            //            Category = rand.Next(1, 10),
+            //            RSSI1 = rand.Next(1, 100),
+            //            RSSI2 = rand.Next(1, 100),
+            //            RSSI3 = rand.Next(1, 100),
+            //            X = rand.Next(1, 100),
+            //            Y = rand.Next(1, 100),
+            //        }
+            //        );
+            //}
+
+            entity.HasData(
+                new Referencepoint
+                {
+                    ReferencepointId = 1,
+                    Category = rand.Next(1,15),
+                    RSSI1 = rand.Next(1, 100),
+                    RSSI2 = rand.Next(1, 100),
+                    RSSI3 = rand.Next(1, 100),
+                    X = 1,
+                    Y = 1
+                }
+                );
+
+                        entity.HasData(
+                new Referencepoint
+                {
+                    ReferencepointId = 2,
+                    Category = rand.Next(1,15),
+                    RSSI1 = rand.Next(1, 100),
+                    RSSI2 = rand.Next(1, 100),
+                    RSSI3 = rand.Next(1, 100),
+                    X = 1,
+                    Y = 2
+                }
+                );
+                        entity.HasData(
+                new Referencepoint
+                {
+                    ReferencepointId = 3,
+                    Category = rand.Next(1,15),
+                    RSSI1 = rand.Next(1, 100),
+                    RSSI2 = rand.Next(1, 100),
+                    RSSI3 = rand.Next(1, 100),
+                    X = 2,
+                    Y = 1
+                }
+                );
+
+                        entity.HasData(
+                new Referencepoint
+                {
+                    ReferencepointId = 4,
+                    Category = rand.Next(1,15),
+                    RSSI1 = rand.Next(1, 100),
+                    RSSI2 = rand.Next(1, 100),
+                    RSSI3 = rand.Next(1, 100),
+                    X = 2,
+                    Y = 2
+                }
+                );
+
         }
     }
 }
