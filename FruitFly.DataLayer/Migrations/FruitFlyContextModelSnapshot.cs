@@ -99,39 +99,39 @@ namespace FruitFly.Repository.Migrations
                         {
                             ReferencepointId = 1,
                             Category = 1,
-                            RSSI1 = 32,
-                            RSSI2 = 17,
-                            RSSI3 = 82,
+                            RSSI1 = 79,
+                            RSSI2 = 25,
+                            RSSI3 = 75,
                             X = 1,
                             Y = 1
                         },
                         new
                         {
                             ReferencepointId = 2,
-                            Category = 4,
-                            RSSI1 = 23,
-                            RSSI2 = 55,
-                            RSSI3 = 18,
+                            Category = 8,
+                            RSSI1 = 86,
+                            RSSI2 = 12,
+                            RSSI3 = 70,
                             X = 1,
                             Y = 2
                         },
                         new
                         {
                             ReferencepointId = 3,
-                            Category = 14,
-                            RSSI1 = 56,
-                            RSSI2 = 16,
-                            RSSI3 = 59,
+                            Category = 8,
+                            RSSI1 = 61,
+                            RSSI2 = 88,
+                            RSSI3 = 5,
                             X = 2,
                             Y = 1
                         },
                         new
                         {
                             ReferencepointId = 4,
-                            Category = 8,
-                            RSSI1 = 91,
-                            RSSI2 = 87,
-                            RSSI3 = 22,
+                            Category = 14,
+                            RSSI1 = 78,
+                            RSSI2 = 34,
+                            RSSI3 = 36,
                             X = 2,
                             Y = 2
                         });

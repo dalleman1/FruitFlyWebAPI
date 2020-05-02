@@ -55,10 +55,10 @@ namespace FruitFly.Repository.Migrations
                 columns: new[] { "ReferencepointId", "Category", "RSSI1", "RSSI2", "RSSI3", "X", "Y" },
                 values: new object[,]
                 {
-                    { 1, 1, 32, 17, 82, 1, 1 },
-                    { 2, 4, 23, 55, 18, 1, 2 },
-                    { 3, 14, 56, 16, 59, 2, 1 },
-                    { 4, 8, 91, 87, 22, 2, 2 }
+                    { 1, 1, 79, 25, 75, 1, 1 },
+                    { 2, 8, 86, 12, 70, 1, 2 },
+                    { 3, 8, 61, 88, 5, 2, 1 },
+                    { 4, 14, 78, 34, 36, 2, 2 }
                 });
 
             migrationBuilder.InsertData(
