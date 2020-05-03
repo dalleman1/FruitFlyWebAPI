@@ -22,7 +22,7 @@ namespace FruitFly.Repository.Configurations
                     new Heatmap
                     {
                         HeatmapID = i,
-                        ReferencepointId = i,
+                        ReferencepointId = i
                     }
                     );
             }
