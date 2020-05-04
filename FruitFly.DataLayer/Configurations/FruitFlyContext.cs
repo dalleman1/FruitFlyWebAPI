@@ -23,10 +23,7 @@ namespace FruitFly.Repository.Configurations
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //One to many relationship -> it is possible for a heatmap to have more referencepoints (more persons on the same point)
-            //modelBuilder.Entity<Heatmap>()
-            //    .HasMany(c => c.Referencepoints)
-            //    .WithOne(e => e.Heatmap);
+            modelBuilder.Entity<Heatmap>().HasOne(e => e.Referencepoint).WithMany();
             // Static data for testing purposes
             modelBuilder.ApplyConfiguration(new ReferencepointConfiguration());
             modelBuilder.ApplyConfiguration(new HeatmapConfiguration());
