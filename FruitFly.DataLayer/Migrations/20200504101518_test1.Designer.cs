@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FruitFly.Repository.Migrations
 {
     [DbContext(typeof(FruitFlyContext))]
-    [Migration("20200503095600_initial")]
-    partial class initial
+    [Migration("20200504101518_test1")]
+    partial class test1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -1318,2492 +1318,2492 @@ namespace FruitFly.Repository.Migrations
                         new
                         {
                             ReferencepointId = 1,
-                            Category = 6,
-                            RSSI1 = 70,
-                            RSSI2 = 11,
-                            RSSI3 = 89,
-                            X = 72,
-                            Y = 91
+                            Category = 7,
+                            RSSI1 = 36,
+                            RSSI2 = 65,
+                            RSSI3 = 77,
+                            X = 45,
+                            Y = 72
                         },
                         new
                         {
                             ReferencepointId = 2,
-                            Category = 2,
-                            RSSI1 = 28,
-                            RSSI2 = 86,
-                            RSSI3 = 89,
-                            X = 30,
-                            Y = 87
+                            Category = 5,
+                            RSSI1 = 79,
+                            RSSI2 = 83,
+                            RSSI3 = 42,
+                            X = 74,
+                            Y = 76
                         },
                         new
                         {
                             ReferencepointId = 3,
-                            Category = 5,
-                            RSSI1 = 60,
-                            RSSI2 = 18,
-                            RSSI3 = 77,
-                            X = 10,
-                            Y = 4
+                            Category = 7,
+                            RSSI1 = 32,
+                            RSSI2 = 33,
+                            RSSI3 = 4,
+                            X = 73,
+                            Y = 7
                         },
                         new
                         {
                             ReferencepointId = 4,
-                            Category = 6,
-                            RSSI1 = 19,
-                            RSSI2 = 47,
-                            RSSI3 = 78,
-                            X = 65,
-                            Y = 95
+                            Category = 4,
+                            RSSI1 = 30,
+                            RSSI2 = 96,
+                            RSSI3 = 84,
+                            X = 23,
+                            Y = 36
                         },
                         new
                         {
                             ReferencepointId = 5,
-                            Category = 7,
-                            RSSI1 = 43,
-                            RSSI2 = 66,
-                            RSSI3 = 10,
-                            X = 98,
-                            Y = 85
+                            Category = 1,
+                            RSSI1 = 58,
+                            RSSI2 = 78,
+                            RSSI3 = 4,
+                            X = 50,
+                            Y = 12
                         },
                         new
                         {
                             ReferencepointId = 6,
-                            Category = 2,
-                            RSSI1 = 5,
-                            RSSI2 = 69,
-                            RSSI3 = 11,
-                            X = 63,
-                            Y = 41
+                            Category = 9,
+                            RSSI1 = 20,
+                            RSSI2 = 15,
+                            RSSI3 = 10,
+                            X = 37,
+                            Y = 29
                         },
                         new
                         {
                             ReferencepointId = 7,
-                            Category = 9,
-                            RSSI1 = 98,
-                            RSSI2 = 50,
-                            RSSI3 = 81,
-                            X = 47,
-                            Y = 13
+                            Category = 5,
+                            RSSI1 = 9,
+                            RSSI2 = 22,
+                            RSSI3 = 27,
+                            X = 54,
+                            Y = 86
                         },
                         new
                         {
                             ReferencepointId = 8,
-                            Category = 5,
-                            RSSI1 = 93,
-                            RSSI2 = 86,
-                            RSSI3 = 31,
-                            X = 57,
-                            Y = 52
+                            Category = 8,
+                            RSSI1 = 65,
+                            RSSI2 = 34,
+                            RSSI3 = 28,
+                            X = 74,
+                            Y = 19
                         },
                         new
                         {
                             ReferencepointId = 9,
-                            Category = 4,
-                            RSSI1 = 24,
-                            RSSI2 = 32,
-                            RSSI3 = 18,
-                            X = 79,
-                            Y = 71
+                            Category = 9,
+                            RSSI1 = 53,
+                            RSSI2 = 70,
+                            RSSI3 = 95,
+                            X = 82,
+                            Y = 56
                         },
                         new
                         {
                             ReferencepointId = 10,
                             Category = 7,
-                            RSSI1 = 85,
-                            RSSI2 = 6,
-                            RSSI3 = 15,
-                            X = 20,
-                            Y = 30
+                            RSSI1 = 91,
+                            RSSI2 = 14,
+                            RSSI3 = 29,
+                            X = 76,
+                            Y = 87
                         },
                         new
                         {
                             ReferencepointId = 11,
-                            Category = 3,
-                            RSSI1 = 4,
-                            RSSI2 = 29,
-                            RSSI3 = 1,
-                            X = 71,
-                            Y = 26
+                            Category = 9,
+                            RSSI1 = 52,
+                            RSSI2 = 30,
+                            RSSI3 = 72,
+                            X = 48,
+                            Y = 54
                         },
                         new
                         {
                             ReferencepointId = 12,
-                            Category = 2,
-                            RSSI1 = 36,
-                            RSSI2 = 96,
-                            RSSI3 = 76,
-                            X = 88,
-                            Y = 12
+                            Category = 6,
+                            RSSI1 = 67,
+                            RSSI2 = 94,
+                            RSSI3 = 5,
+                            X = 50,
+                            Y = 64
                         },
                         new
                         {
                             ReferencepointId = 13,
-                            Category = 5,
-                            RSSI1 = 76,
-                            RSSI2 = 72,
-                            RSSI3 = 35,
-                            X = 26,
-                            Y = 71
+                            Category = 8,
+                            RSSI1 = 17,
+                            RSSI2 = 76,
+                            RSSI3 = 10,
+                            X = 6,
+                            Y = 57
                         },
                         new
                         {
                             ReferencepointId = 14,
                             Category = 1,
-                            RSSI1 = 39,
-                            RSSI2 = 85,
-                            RSSI3 = 15,
-                            X = 73,
-                            Y = 75
+                            RSSI1 = 72,
+                            RSSI2 = 83,
+                            RSSI3 = 59,
+                            X = 12,
+                            Y = 96
                         },
                         new
                         {
                             ReferencepointId = 15,
-                            Category = 5,
-                            RSSI1 = 2,
-                            RSSI2 = 25,
-                            RSSI3 = 98,
-                            X = 40,
-                            Y = 78
+                            Category = 4,
+                            RSSI1 = 98,
+                            RSSI2 = 38,
+                            RSSI3 = 59,
+                            X = 34,
+                            Y = 46
                         },
                         new
                         {
                             ReferencepointId = 16,
-                            Category = 4,
-                            RSSI1 = 74,
-                            RSSI2 = 79,
-                            RSSI3 = 21,
-                            X = 56,
-                            Y = 44
+                            Category = 2,
+                            RSSI1 = 25,
+                            RSSI2 = 33,
+                            RSSI3 = 35,
+                            X = 32,
+                            Y = 2
                         },
                         new
                         {
                             ReferencepointId = 17,
-                            Category = 8,
-                            RSSI1 = 52,
-                            RSSI2 = 23,
-                            RSSI3 = 60,
-                            X = 13,
-                            Y = 22
+                            Category = 6,
+                            RSSI1 = 7,
+                            RSSI2 = 18,
+                            RSSI3 = 80,
+                            X = 67,
+                            Y = 8
                         },
                         new
                         {
                             ReferencepointId = 18,
-                            Category = 6,
-                            RSSI1 = 59,
-                            RSSI2 = 35,
-                            RSSI3 = 21,
-                            X = 64,
-                            Y = 3
+                            Category = 3,
+                            RSSI1 = 87,
+                            RSSI2 = 4,
+                            RSSI3 = 6,
+                            X = 11,
+                            Y = 65
                         },
                         new
                         {
                             ReferencepointId = 19,
-                            Category = 9,
-                            RSSI1 = 36,
-                            RSSI2 = 59,
-                            RSSI3 = 34,
-                            X = 6,
-                            Y = 80
+                            Category = 8,
+                            RSSI1 = 66,
+                            RSSI2 = 85,
+                            RSSI3 = 57,
+                            X = 27,
+                            Y = 4
                         },
                         new
                         {
                             ReferencepointId = 20,
-                            Category = 4,
-                            RSSI1 = 11,
-                            RSSI2 = 30,
-                            RSSI3 = 54,
-                            X = 47,
-                            Y = 69
+                            Category = 1,
+                            RSSI1 = 36,
+                            RSSI2 = 41,
+                            RSSI3 = 33,
+                            X = 32,
+                            Y = 49
                         },
                         new
                         {
                             ReferencepointId = 21,
-                            Category = 1,
-                            RSSI1 = 20,
-                            RSSI2 = 95,
-                            RSSI3 = 18,
-                            X = 41,
-                            Y = 14
+                            Category = 2,
+                            RSSI1 = 2,
+                            RSSI2 = 33,
+                            RSSI3 = 49,
+                            X = 89,
+                            Y = 25
                         },
                         new
                         {
                             ReferencepointId = 22,
                             Category = 3,
-                            RSSI1 = 33,
-                            RSSI2 = 21,
-                            RSSI3 = 29,
-                            X = 51,
-                            Y = 74
+                            RSSI1 = 50,
+                            RSSI2 = 85,
+                            RSSI3 = 74,
+                            X = 53,
+                            Y = 99
                         },
                         new
                         {
                             ReferencepointId = 23,
-                            Category = 5,
-                            RSSI1 = 49,
-                            RSSI2 = 26,
-                            RSSI3 = 64,
-                            X = 59,
-                            Y = 15
+                            Category = 4,
+                            RSSI1 = 23,
+                            RSSI2 = 6,
+                            RSSI3 = 75,
+                            X = 35,
+                            Y = 25
                         },
                         new
                         {
                             ReferencepointId = 24,
-                            Category = 4,
-                            RSSI1 = 33,
-                            RSSI2 = 38,
-                            RSSI3 = 23,
-                            X = 99,
-                            Y = 5
+                            Category = 9,
+                            RSSI1 = 35,
+                            RSSI2 = 88,
+                            RSSI3 = 73,
+                            X = 80,
+                            Y = 67
                         },
                         new
                         {
                             ReferencepointId = 25,
-                            Category = 2,
-                            RSSI1 = 3,
-                            RSSI2 = 69,
-                            RSSI3 = 98,
-                            X = 76,
-                            Y = 46
+                            Category = 6,
+                            RSSI1 = 58,
+                            RSSI2 = 98,
+                            RSSI3 = 29,
+                            X = 30,
+                            Y = 96
                         },
                         new
                         {
                             ReferencepointId = 26,
-                            Category = 2,
-                            RSSI1 = 30,
-                            RSSI2 = 6,
-                            RSSI3 = 53,
-                            X = 60,
-                            Y = 93
+                            Category = 6,
+                            RSSI1 = 25,
+                            RSSI2 = 75,
+                            RSSI3 = 68,
+                            X = 64,
+                            Y = 66
                         },
                         new
                         {
                             ReferencepointId = 27,
-                            Category = 3,
-                            RSSI1 = 38,
-                            RSSI2 = 19,
-                            RSSI3 = 21,
-                            X = 88,
-                            Y = 31
+                            Category = 7,
+                            RSSI1 = 75,
+                            RSSI2 = 97,
+                            RSSI3 = 78,
+                            X = 73,
+                            Y = 60
                         },
                         new
                         {
                             ReferencepointId = 28,
                             Category = 8,
-                            RSSI1 = 70,
-                            RSSI2 = 84,
-                            RSSI3 = 85,
-                            X = 85,
-                            Y = 56
+                            RSSI1 = 6,
+                            RSSI2 = 14,
+                            RSSI3 = 86,
+                            X = 18,
+                            Y = 5
                         },
                         new
                         {
                             ReferencepointId = 29,
-                            Category = 5,
-                            RSSI1 = 79,
-                            RSSI2 = 52,
-                            RSSI3 = 16,
-                            X = 14,
-                            Y = 14
+                            Category = 9,
+                            RSSI1 = 29,
+                            RSSI2 = 1,
+                            RSSI3 = 17,
+                            X = 39,
+                            Y = 96
                         },
                         new
                         {
                             ReferencepointId = 30,
-                            Category = 3,
-                            RSSI1 = 78,
-                            RSSI2 = 20,
-                            RSSI3 = 90,
-                            X = 97,
-                            Y = 39
+                            Category = 6,
+                            RSSI1 = 43,
+                            RSSI2 = 22,
+                            RSSI3 = 66,
+                            X = 89,
+                            Y = 31
                         },
                         new
                         {
                             ReferencepointId = 31,
-                            Category = 5,
-                            RSSI1 = 34,
-                            RSSI2 = 57,
-                            RSSI3 = 74,
-                            X = 15,
-                            Y = 22
-                        },
-                        new
-                        {
-                            ReferencepointId = 32,
-                            Category = 7,
-                            RSSI1 = 95,
-                            RSSI2 = 89,
-                            RSSI3 = 33,
-                            X = 38,
-                            Y = 21
-                        },
-                        new
-                        {
-                            ReferencepointId = 33,
-                            Category = 9,
-                            RSSI1 = 19,
-                            RSSI2 = 45,
-                            RSSI3 = 7,
-                            X = 40,
+                            Category = 3,
+                            RSSI1 = 4,
+                            RSSI2 = 20,
+                            RSSI3 = 88,
+                            X = 13,
                             Y = 29
                         },
                         new
                         {
+                            ReferencepointId = 32,
+                            Category = 3,
+                            RSSI1 = 71,
+                            RSSI2 = 58,
+                            RSSI3 = 40,
+                            X = 2,
+                            Y = 60
+                        },
+                        new
+                        {
+                            ReferencepointId = 33,
+                            Category = 3,
+                            RSSI1 = 16,
+                            RSSI2 = 61,
+                            RSSI3 = 28,
+                            X = 92,
+                            Y = 75
+                        },
+                        new
+                        {
                             ReferencepointId = 34,
-                            Category = 2,
-                            RSSI1 = 34,
-                            RSSI2 = 18,
-                            RSSI3 = 13,
-                            X = 45,
-                            Y = 97
+                            Category = 5,
+                            RSSI1 = 74,
+                            RSSI2 = 41,
+                            RSSI3 = 94,
+                            X = 30,
+                            Y = 2
                         },
                         new
                         {
                             ReferencepointId = 35,
                             Category = 9,
-                            RSSI1 = 97,
-                            RSSI2 = 16,
-                            RSSI3 = 91,
-                            X = 22,
-                            Y = 81
+                            RSSI1 = 45,
+                            RSSI2 = 85,
+                            RSSI3 = 78,
+                            X = 7,
+                            Y = 21
                         },
                         new
                         {
                             ReferencepointId = 36,
-                            Category = 7,
-                            RSSI1 = 36,
-                            RSSI2 = 41,
-                            RSSI3 = 80,
-                            X = 76,
-                            Y = 54
+                            Category = 5,
+                            RSSI1 = 9,
+                            RSSI2 = 86,
+                            RSSI3 = 67,
+                            X = 51,
+                            Y = 70
                         },
                         new
                         {
                             ReferencepointId = 37,
-                            Category = 7,
-                            RSSI1 = 8,
-                            RSSI2 = 56,
-                            RSSI3 = 62,
-                            X = 17,
-                            Y = 89
+                            Category = 4,
+                            RSSI1 = 91,
+                            RSSI2 = 92,
+                            RSSI3 = 85,
+                            X = 61,
+                            Y = 47
                         },
                         new
                         {
                             ReferencepointId = 38,
-                            Category = 7,
-                            RSSI1 = 22,
-                            RSSI2 = 41,
-                            RSSI3 = 31,
-                            X = 20,
-                            Y = 95
+                            Category = 5,
+                            RSSI1 = 59,
+                            RSSI2 = 28,
+                            RSSI3 = 41,
+                            X = 89,
+                            Y = 24
                         },
                         new
                         {
                             ReferencepointId = 39,
-                            Category = 7,
-                            RSSI1 = 25,
-                            RSSI2 = 39,
-                            RSSI3 = 91,
-                            X = 70,
-                            Y = 63
+                            Category = 4,
+                            RSSI1 = 34,
+                            RSSI2 = 51,
+                            RSSI3 = 46,
+                            X = 12,
+                            Y = 15
                         },
                         new
                         {
                             ReferencepointId = 40,
-                            Category = 2,
+                            Category = 9,
                             RSSI1 = 33,
-                            RSSI2 = 89,
-                            RSSI3 = 59,
-                            X = 80,
-                            Y = 18
+                            RSSI2 = 74,
+                            RSSI3 = 19,
+                            X = 93,
+                            Y = 67
                         },
                         new
                         {
                             ReferencepointId = 41,
-                            Category = 1,
-                            RSSI1 = 77,
-                            RSSI2 = 74,
-                            RSSI3 = 9,
-                            X = 58,
-                            Y = 3
+                            Category = 4,
+                            RSSI1 = 47,
+                            RSSI2 = 64,
+                            RSSI3 = 38,
+                            X = 94,
+                            Y = 92
                         },
                         new
                         {
                             ReferencepointId = 42,
-                            Category = 8,
-                            RSSI1 = 16,
-                            RSSI2 = 43,
-                            RSSI3 = 90,
-                            X = 33,
-                            Y = 32
+                            Category = 7,
+                            RSSI1 = 59,
+                            RSSI2 = 64,
+                            RSSI3 = 91,
+                            X = 87,
+                            Y = 1
                         },
                         new
                         {
                             ReferencepointId = 43,
-                            Category = 7,
-                            RSSI1 = 58,
-                            RSSI2 = 18,
-                            RSSI3 = 28,
-                            X = 46,
-                            Y = 23
+                            Category = 8,
+                            RSSI1 = 69,
+                            RSSI2 = 13,
+                            RSSI3 = 94,
+                            X = 48,
+                            Y = 70
                         },
                         new
                         {
                             ReferencepointId = 44,
-                            Category = 6,
-                            RSSI1 = 63,
-                            RSSI2 = 77,
-                            RSSI3 = 21,
-                            X = 23,
-                            Y = 96
+                            Category = 7,
+                            RSSI1 = 54,
+                            RSSI2 = 55,
+                            RSSI3 = 62,
+                            X = 42,
+                            Y = 73
                         },
                         new
                         {
                             ReferencepointId = 45,
-                            Category = 4,
-                            RSSI1 = 82,
-                            RSSI2 = 66,
-                            RSSI3 = 77,
-                            X = 59,
-                            Y = 44
+                            Category = 7,
+                            RSSI1 = 98,
+                            RSSI2 = 96,
+                            RSSI3 = 71,
+                            X = 77,
+                            Y = 19
                         },
                         new
                         {
                             ReferencepointId = 46,
-                            Category = 6,
-                            RSSI1 = 15,
-                            RSSI2 = 28,
-                            RSSI3 = 38,
-                            X = 56,
-                            Y = 40
+                            Category = 9,
+                            RSSI1 = 22,
+                            RSSI2 = 98,
+                            RSSI3 = 25,
+                            X = 42,
+                            Y = 15
                         },
                         new
                         {
                             ReferencepointId = 47,
-                            Category = 2,
-                            RSSI1 = 59,
-                            RSSI2 = 63,
-                            RSSI3 = 38,
-                            X = 51,
-                            Y = 5
+                            Category = 8,
+                            RSSI1 = 9,
+                            RSSI2 = 64,
+                            RSSI3 = 35,
+                            X = 67,
+                            Y = 31
                         },
                         new
                         {
                             ReferencepointId = 48,
-                            Category = 5,
-                            RSSI1 = 78,
-                            RSSI2 = 91,
-                            RSSI3 = 7,
-                            X = 18,
-                            Y = 13
+                            Category = 6,
+                            RSSI1 = 45,
+                            RSSI2 = 46,
+                            RSSI3 = 50,
+                            X = 63,
+                            Y = 43
                         },
                         new
                         {
                             ReferencepointId = 49,
-                            Category = 5,
-                            RSSI1 = 93,
-                            RSSI2 = 86,
-                            RSSI3 = 66,
-                            X = 4,
-                            Y = 17
+                            Category = 1,
+                            RSSI1 = 95,
+                            RSSI2 = 84,
+                            RSSI3 = 4,
+                            X = 45,
+                            Y = 39
                         },
                         new
                         {
                             ReferencepointId = 50,
-                            Category = 4,
-                            RSSI1 = 86,
-                            RSSI2 = 54,
-                            RSSI3 = 77,
-                            X = 65,
-                            Y = 75
+                            Category = 2,
+                            RSSI1 = 81,
+                            RSSI2 = 5,
+                            RSSI3 = 91,
+                            X = 68,
+                            Y = 96
                         },
                         new
                         {
                             ReferencepointId = 51,
-                            Category = 4,
+                            Category = 9,
                             RSSI1 = 3,
-                            RSSI2 = 57,
-                            RSSI3 = 99,
-                            X = 26,
-                            Y = 19
+                            RSSI2 = 82,
+                            RSSI3 = 46,
+                            X = 95,
+                            Y = 66
                         },
                         new
                         {
                             ReferencepointId = 52,
                             Category = 1,
-                            RSSI1 = 35,
-                            RSSI2 = 2,
-                            RSSI3 = 77,
+                            RSSI1 = 58,
+                            RSSI2 = 27,
+                            RSSI3 = 98,
                             X = 12,
-                            Y = 87
+                            Y = 40
                         },
                         new
                         {
                             ReferencepointId = 53,
-                            Category = 6,
-                            RSSI1 = 18,
-                            RSSI2 = 12,
-                            RSSI3 = 73,
-                            X = 68,
-                            Y = 45
+                            Category = 1,
+                            RSSI1 = 38,
+                            RSSI2 = 87,
+                            RSSI3 = 25,
+                            X = 3,
+                            Y = 97
                         },
                         new
                         {
                             ReferencepointId = 54,
-                            Category = 1,
-                            RSSI1 = 36,
-                            RSSI2 = 65,
+                            Category = 3,
+                            RSSI1 = 20,
+                            RSSI2 = 35,
                             RSSI3 = 54,
-                            X = 32,
-                            Y = 65
+                            X = 69,
+                            Y = 81
                         },
                         new
                         {
                             ReferencepointId = 55,
-                            Category = 6,
-                            RSSI1 = 98,
-                            RSSI2 = 12,
-                            RSSI3 = 11,
-                            X = 98,
-                            Y = 70
+                            Category = 4,
+                            RSSI1 = 92,
+                            RSSI2 = 76,
+                            RSSI3 = 59,
+                            X = 13,
+                            Y = 61
                         },
                         new
                         {
                             ReferencepointId = 56,
-                            Category = 8,
-                            RSSI1 = 39,
-                            RSSI2 = 93,
-                            RSSI3 = 87,
-                            X = 2,
-                            Y = 48
+                            Category = 1,
+                            RSSI1 = 91,
+                            RSSI2 = 41,
+                            RSSI3 = 67,
+                            X = 39,
+                            Y = 64
                         },
                         new
                         {
                             ReferencepointId = 57,
                             Category = 5,
-                            RSSI1 = 53,
-                            RSSI2 = 52,
-                            RSSI3 = 73,
-                            X = 3,
-                            Y = 82
+                            RSSI1 = 14,
+                            RSSI2 = 50,
+                            RSSI3 = 80,
+                            X = 48,
+                            Y = 6
                         },
                         new
                         {
                             ReferencepointId = 58,
-                            Category = 1,
-                            RSSI1 = 68,
-                            RSSI2 = 82,
-                            RSSI3 = 99,
-                            X = 7,
-                            Y = 85
+                            Category = 2,
+                            RSSI1 = 3,
+                            RSSI2 = 84,
+                            RSSI3 = 45,
+                            X = 97,
+                            Y = 7
                         },
                         new
                         {
                             ReferencepointId = 59,
-                            Category = 1,
-                            RSSI1 = 67,
-                            RSSI2 = 18,
-                            RSSI3 = 9,
-                            X = 72,
-                            Y = 29
+                            Category = 5,
+                            RSSI1 = 87,
+                            RSSI2 = 78,
+                            RSSI3 = 8,
+                            X = 64,
+                            Y = 48
                         },
                         new
                         {
                             ReferencepointId = 60,
-                            Category = 1,
-                            RSSI1 = 83,
-                            RSSI2 = 71,
-                            RSSI3 = 91,
-                            X = 42,
-                            Y = 27
+                            Category = 6,
+                            RSSI1 = 42,
+                            RSSI2 = 34,
+                            RSSI3 = 2,
+                            X = 12,
+                            Y = 3
                         },
                         new
                         {
                             ReferencepointId = 61,
-                            Category = 1,
-                            RSSI1 = 93,
-                            RSSI2 = 37,
-                            RSSI3 = 32,
-                            X = 91,
-                            Y = 73
+                            Category = 9,
+                            RSSI1 = 43,
+                            RSSI2 = 46,
+                            RSSI3 = 66,
+                            X = 89,
+                            Y = 20
                         },
                         new
                         {
                             ReferencepointId = 62,
                             Category = 9,
-                            RSSI1 = 72,
-                            RSSI2 = 17,
-                            RSSI3 = 64,
-                            X = 26,
-                            Y = 15
-                        },
-                        new
-                        {
-                            ReferencepointId = 63,
-                            Category = 9,
-                            RSSI1 = 32,
-                            RSSI2 = 34,
-                            RSSI3 = 82,
-                            X = 43,
-                            Y = 63
-                        },
-                        new
-                        {
-                            ReferencepointId = 64,
-                            Category = 8,
-                            RSSI1 = 58,
-                            RSSI2 = 92,
-                            RSSI3 = 27,
-                            X = 6,
-                            Y = 32
-                        },
-                        new
-                        {
-                            ReferencepointId = 65,
-                            Category = 5,
-                            RSSI1 = 77,
-                            RSSI2 = 66,
-                            RSSI3 = 64,
-                            X = 77,
-                            Y = 18
-                        },
-                        new
-                        {
-                            ReferencepointId = 66,
-                            Category = 7,
-                            RSSI1 = 56,
-                            RSSI2 = 11,
-                            RSSI3 = 25,
-                            X = 66,
-                            Y = 9
-                        },
-                        new
-                        {
-                            ReferencepointId = 67,
-                            Category = 5,
-                            RSSI1 = 78,
-                            RSSI2 = 77,
-                            RSSI3 = 9,
-                            X = 6,
-                            Y = 35
-                        },
-                        new
-                        {
-                            ReferencepointId = 68,
-                            Category = 7,
-                            RSSI1 = 41,
-                            RSSI2 = 41,
-                            RSSI3 = 4,
-                            X = 16,
-                            Y = 41
-                        },
-                        new
-                        {
-                            ReferencepointId = 69,
-                            Category = 9,
-                            RSSI1 = 28,
-                            RSSI2 = 40,
-                            RSSI3 = 9,
-                            X = 8,
-                            Y = 84
-                        },
-                        new
-                        {
-                            ReferencepointId = 70,
-                            Category = 4,
-                            RSSI1 = 80,
-                            RSSI2 = 88,
-                            RSSI3 = 6,
-                            X = 80,
-                            Y = 14
-                        },
-                        new
-                        {
-                            ReferencepointId = 71,
-                            Category = 1,
-                            RSSI1 = 29,
-                            RSSI2 = 95,
-                            RSSI3 = 98,
-                            X = 86,
-                            Y = 69
-                        },
-                        new
-                        {
-                            ReferencepointId = 72,
-                            Category = 1,
-                            RSSI1 = 68,
-                            RSSI2 = 65,
-                            RSSI3 = 25,
-                            X = 37,
-                            Y = 64
-                        },
-                        new
-                        {
-                            ReferencepointId = 73,
-                            Category = 8,
-                            RSSI1 = 74,
-                            RSSI2 = 52,
-                            RSSI3 = 57,
-                            X = 58,
-                            Y = 64
-                        },
-                        new
-                        {
-                            ReferencepointId = 74,
-                            Category = 9,
-                            RSSI1 = 49,
-                            RSSI2 = 62,
-                            RSSI3 = 26,
-                            X = 69,
-                            Y = 49
-                        },
-                        new
-                        {
-                            ReferencepointId = 75,
-                            Category = 7,
-                            RSSI1 = 68,
-                            RSSI2 = 48,
-                            RSSI3 = 27,
-                            X = 90,
-                            Y = 85
-                        },
-                        new
-                        {
-                            ReferencepointId = 76,
-                            Category = 2,
-                            RSSI1 = 40,
-                            RSSI2 = 98,
-                            RSSI3 = 63,
-                            X = 3,
-                            Y = 76
-                        },
-                        new
-                        {
-                            ReferencepointId = 77,
-                            Category = 4,
-                            RSSI1 = 69,
-                            RSSI2 = 55,
-                            RSSI3 = 72,
-                            X = 99,
-                            Y = 48
-                        },
-                        new
-                        {
-                            ReferencepointId = 78,
-                            Category = 7,
-                            RSSI1 = 70,
-                            RSSI2 = 90,
-                            RSSI3 = 75,
-                            X = 23,
-                            Y = 34
-                        },
-                        new
-                        {
-                            ReferencepointId = 79,
-                            Category = 3,
-                            RSSI1 = 77,
-                            RSSI2 = 23,
+                            RSSI1 = 39,
+                            RSSI2 = 99,
                             RSSI3 = 24,
-                            X = 16,
-                            Y = 32
-                        },
-                        new
-                        {
-                            ReferencepointId = 80,
-                            Category = 5,
-                            RSSI1 = 80,
-                            RSSI2 = 60,
-                            RSSI3 = 46,
-                            X = 21,
-                            Y = 18
-                        },
-                        new
-                        {
-                            ReferencepointId = 81,
-                            Category = 2,
-                            RSSI1 = 77,
-                            RSSI2 = 78,
-                            RSSI3 = 80,
-                            X = 4,
-                            Y = 97
-                        },
-                        new
-                        {
-                            ReferencepointId = 82,
-                            Category = 6,
-                            RSSI1 = 22,
-                            RSSI2 = 71,
-                            RSSI3 = 75,
-                            X = 19,
+                            X = 77,
                             Y = 89
                         },
                         new
                         {
-                            ReferencepointId = 83,
-                            Category = 1,
-                            RSSI1 = 18,
-                            RSSI2 = 49,
-                            RSSI3 = 14,
-                            X = 51,
-                            Y = 99
-                        },
-                        new
-                        {
-                            ReferencepointId = 84,
-                            Category = 6,
-                            RSSI1 = 3,
-                            RSSI2 = 46,
-                            RSSI3 = 15,
-                            X = 93,
-                            Y = 13
-                        },
-                        new
-                        {
-                            ReferencepointId = 85,
-                            Category = 6,
-                            RSSI1 = 97,
-                            RSSI2 = 24,
-                            RSSI3 = 67,
-                            X = 12,
-                            Y = 22
-                        },
-                        new
-                        {
-                            ReferencepointId = 86,
-                            Category = 2,
-                            RSSI1 = 93,
-                            RSSI2 = 48,
-                            RSSI3 = 37,
-                            X = 52,
-                            Y = 23
-                        },
-                        new
-                        {
-                            ReferencepointId = 87,
-                            Category = 7,
-                            RSSI1 = 95,
-                            RSSI2 = 66,
-                            RSSI3 = 93,
-                            X = 10,
-                            Y = 1
-                        },
-                        new
-                        {
-                            ReferencepointId = 88,
-                            Category = 6,
-                            RSSI1 = 57,
-                            RSSI2 = 59,
-                            RSSI3 = 34,
-                            X = 15,
-                            Y = 98
-                        },
-                        new
-                        {
-                            ReferencepointId = 89,
-                            Category = 8,
-                            RSSI1 = 38,
-                            RSSI2 = 30,
-                            RSSI3 = 61,
-                            X = 88,
-                            Y = 19
-                        },
-                        new
-                        {
-                            ReferencepointId = 90,
-                            Category = 7,
-                            RSSI1 = 7,
-                            RSSI2 = 83,
-                            RSSI3 = 65,
-                            X = 17,
-                            Y = 7
-                        },
-                        new
-                        {
-                            ReferencepointId = 91,
-                            Category = 7,
-                            RSSI1 = 99,
-                            RSSI2 = 11,
-                            RSSI3 = 50,
-                            X = 58,
-                            Y = 26
-                        },
-                        new
-                        {
-                            ReferencepointId = 92,
-                            Category = 4,
-                            RSSI1 = 72,
-                            RSSI2 = 66,
-                            RSSI3 = 27,
-                            X = 44,
-                            Y = 55
-                        },
-                        new
-                        {
-                            ReferencepointId = 93,
-                            Category = 3,
-                            RSSI1 = 65,
-                            RSSI2 = 92,
-                            RSSI3 = 45,
-                            X = 52,
-                            Y = 37
-                        },
-                        new
-                        {
-                            ReferencepointId = 94,
+                            ReferencepointId = 63,
                             Category = 5,
-                            RSSI1 = 30,
-                            RSSI2 = 82,
-                            RSSI3 = 26,
-                            X = 84,
-                            Y = 74
+                            RSSI1 = 47,
+                            RSSI2 = 71,
+                            RSSI3 = 29,
+                            X = 38,
+                            Y = 66
                         },
                         new
                         {
-                            ReferencepointId = 95,
+                            ReferencepointId = 64,
                             Category = 9,
-                            RSSI1 = 56,
-                            RSSI2 = 5,
-                            RSSI3 = 30,
-                            X = 65,
-                            Y = 46
-                        },
-                        new
-                        {
-                            ReferencepointId = 96,
-                            Category = 4,
-                            RSSI1 = 5,
-                            RSSI2 = 79,
-                            RSSI3 = 59,
-                            X = 20,
-                            Y = 11
-                        },
-                        new
-                        {
-                            ReferencepointId = 97,
-                            Category = 9,
-                            RSSI1 = 13,
-                            RSSI2 = 98,
-                            RSSI3 = 34,
-                            X = 92,
-                            Y = 42
-                        },
-                        new
-                        {
-                            ReferencepointId = 98,
-                            Category = 3,
-                            RSSI1 = 56,
-                            RSSI2 = 93,
-                            RSSI3 = 75,
-                            X = 28,
-                            Y = 23
-                        },
-                        new
-                        {
-                            ReferencepointId = 99,
-                            Category = 3,
-                            RSSI1 = 27,
-                            RSSI2 = 54,
-                            RSSI3 = 47,
-                            X = 13,
-                            Y = 86
-                        },
-                        new
-                        {
-                            ReferencepointId = 100,
-                            Category = 3,
-                            RSSI1 = 48,
-                            RSSI2 = 15,
-                            RSSI3 = 36,
-                            X = 58,
-                            Y = 3
-                        },
-                        new
-                        {
-                            ReferencepointId = 101,
-                            Category = 2,
-                            RSSI1 = 12,
-                            RSSI2 = 8,
-                            RSSI3 = 20,
-                            X = 87,
-                            Y = 40
-                        },
-                        new
-                        {
-                            ReferencepointId = 102,
-                            Category = 7,
-                            RSSI1 = 73,
-                            RSSI2 = 46,
-                            RSSI3 = 82,
-                            X = 55,
-                            Y = 40
-                        },
-                        new
-                        {
-                            ReferencepointId = 103,
-                            Category = 4,
-                            RSSI1 = 19,
-                            RSSI2 = 37,
-                            RSSI3 = 40,
-                            X = 93,
-                            Y = 29
-                        },
-                        new
-                        {
-                            ReferencepointId = 104,
-                            Category = 8,
-                            RSSI1 = 17,
-                            RSSI2 = 28,
-                            RSSI3 = 82,
-                            X = 4,
-                            Y = 38
-                        },
-                        new
-                        {
-                            ReferencepointId = 105,
-                            Category = 9,
-                            RSSI1 = 92,
-                            RSSI2 = 91,
-                            RSSI3 = 92,
-                            X = 35,
-                            Y = 71
-                        },
-                        new
-                        {
-                            ReferencepointId = 106,
-                            Category = 9,
-                            RSSI1 = 54,
-                            RSSI2 = 54,
-                            RSSI3 = 96,
-                            X = 14,
-                            Y = 81
-                        },
-                        new
-                        {
-                            ReferencepointId = 107,
-                            Category = 4,
-                            RSSI1 = 13,
-                            RSSI2 = 68,
-                            RSSI3 = 53,
-                            X = 98,
-                            Y = 54
-                        },
-                        new
-                        {
-                            ReferencepointId = 108,
-                            Category = 7,
-                            RSSI1 = 44,
-                            RSSI2 = 72,
-                            RSSI3 = 14,
-                            X = 9,
-                            Y = 93
-                        },
-                        new
-                        {
-                            ReferencepointId = 109,
-                            Category = 5,
-                            RSSI1 = 84,
-                            RSSI2 = 55,
-                            RSSI3 = 86,
-                            X = 56,
-                            Y = 42
-                        },
-                        new
-                        {
-                            ReferencepointId = 110,
-                            Category = 7,
-                            RSSI1 = 38,
-                            RSSI2 = 8,
+                            RSSI1 = 89,
+                            RSSI2 = 95,
                             RSSI3 = 69,
-                            X = 28,
-                            Y = 95
+                            X = 9,
+                            Y = 25
                         },
                         new
                         {
-                            ReferencepointId = 111,
-                            Category = 5,
-                            RSSI1 = 84,
-                            RSSI2 = 39,
-                            RSSI3 = 74,
-                            X = 87,
-                            Y = 1
-                        },
-                        new
-                        {
-                            ReferencepointId = 112,
+                            ReferencepointId = 65,
                             Category = 8,
-                            RSSI1 = 42,
-                            RSSI2 = 6,
-                            RSSI3 = 56,
+                            RSSI1 = 3,
+                            RSSI2 = 28,
+                            RSSI3 = 92,
                             X = 6,
-                            Y = 80
+                            Y = 97
                         },
                         new
                         {
-                            ReferencepointId = 113,
-                            Category = 6,
-                            RSSI1 = 28,
-                            RSSI2 = 18,
-                            RSSI3 = 74,
-                            X = 5,
-                            Y = 59
-                        },
-                        new
-                        {
-                            ReferencepointId = 114,
-                            Category = 6,
-                            RSSI1 = 78,
-                            RSSI2 = 83,
-                            RSSI3 = 98,
-                            X = 43,
-                            Y = 51
-                        },
-                        new
-                        {
-                            ReferencepointId = 115,
-                            Category = 2,
-                            RSSI1 = 10,
-                            RSSI2 = 98,
-                            RSSI3 = 13,
-                            X = 22,
-                            Y = 75
-                        },
-                        new
-                        {
-                            ReferencepointId = 116,
-                            Category = 7,
-                            RSSI1 = 66,
-                            RSSI2 = 84,
-                            RSSI3 = 73,
-                            X = 5,
-                            Y = 15
-                        },
-                        new
-                        {
-                            ReferencepointId = 117,
-                            Category = 2,
-                            RSSI1 = 4,
-                            RSSI2 = 57,
-                            RSSI3 = 71,
-                            X = 29,
-                            Y = 67
-                        },
-                        new
-                        {
-                            ReferencepointId = 118,
-                            Category = 8,
-                            RSSI1 = 93,
-                            RSSI2 = 78,
-                            RSSI3 = 74,
-                            X = 26,
-                            Y = 29
-                        },
-                        new
-                        {
-                            ReferencepointId = 119,
+                            ReferencepointId = 66,
                             Category = 3,
-                            RSSI1 = 1,
-                            RSSI2 = 33,
-                            RSSI3 = 48,
-                            X = 3,
-                            Y = 50
+                            RSSI1 = 47,
+                            RSSI2 = 3,
+                            RSSI3 = 47,
+                            X = 90,
+                            Y = 6
                         },
                         new
                         {
-                            ReferencepointId = 120,
-                            Category = 2,
-                            RSSI1 = 50,
-                            RSSI2 = 41,
-                            RSSI3 = 87,
-                            X = 57,
-                            Y = 77
-                        },
-                        new
-                        {
-                            ReferencepointId = 121,
-                            Category = 1,
-                            RSSI1 = 73,
-                            RSSI2 = 20,
-                            RSSI3 = 30,
-                            X = 82,
-                            Y = 39
-                        },
-                        new
-                        {
-                            ReferencepointId = 122,
-                            Category = 9,
-                            RSSI1 = 87,
-                            RSSI2 = 23,
-                            RSSI3 = 4,
-                            X = 58,
-                            Y = 2
-                        },
-                        new
-                        {
-                            ReferencepointId = 123,
-                            Category = 1,
-                            RSSI1 = 94,
-                            RSSI2 = 49,
-                            RSSI3 = 16,
-                            X = 11,
-                            Y = 50
-                        },
-                        new
-                        {
-                            ReferencepointId = 124,
-                            Category = 7,
-                            RSSI1 = 42,
-                            RSSI2 = 83,
-                            RSSI3 = 70,
-                            X = 89,
-                            Y = 22
-                        },
-                        new
-                        {
-                            ReferencepointId = 125,
-                            Category = 4,
-                            RSSI1 = 26,
-                            RSSI2 = 63,
-                            RSSI3 = 34,
-                            X = 61,
-                            Y = 54
-                        },
-                        new
-                        {
-                            ReferencepointId = 126,
-                            Category = 7,
-                            RSSI1 = 29,
-                            RSSI2 = 46,
-                            RSSI3 = 79,
-                            X = 69,
-                            Y = 56
-                        },
-                        new
-                        {
-                            ReferencepointId = 127,
-                            Category = 5,
-                            RSSI1 = 58,
-                            RSSI2 = 12,
-                            RSSI3 = 40,
-                            X = 78,
-                            Y = 38
-                        },
-                        new
-                        {
-                            ReferencepointId = 128,
-                            Category = 1,
-                            RSSI1 = 20,
-                            RSSI2 = 42,
-                            RSSI3 = 31,
-                            X = 45,
-                            Y = 9
-                        },
-                        new
-                        {
-                            ReferencepointId = 129,
-                            Category = 1,
-                            RSSI1 = 96,
-                            RSSI2 = 40,
-                            RSSI3 = 91,
-                            X = 16,
-                            Y = 15
-                        },
-                        new
-                        {
-                            ReferencepointId = 130,
-                            Category = 9,
-                            RSSI1 = 32,
-                            RSSI2 = 83,
-                            RSSI3 = 97,
-                            X = 87,
-                            Y = 57
-                        },
-                        new
-                        {
-                            ReferencepointId = 131,
-                            Category = 7,
-                            RSSI1 = 61,
-                            RSSI2 = 27,
-                            RSSI3 = 68,
-                            X = 30,
-                            Y = 30
-                        },
-                        new
-                        {
-                            ReferencepointId = 132,
+                            ReferencepointId = 67,
                             Category = 6,
-                            RSSI1 = 24,
-                            RSSI2 = 26,
-                            RSSI3 = 93,
-                            X = 68,
-                            Y = 53
-                        },
-                        new
-                        {
-                            ReferencepointId = 133,
-                            Category = 4,
-                            RSSI1 = 33,
-                            RSSI2 = 64,
-                            RSSI3 = 46,
-                            X = 64,
-                            Y = 69
-                        },
-                        new
-                        {
-                            ReferencepointId = 134,
-                            Category = 8,
-                            RSSI1 = 12,
-                            RSSI2 = 80,
-                            RSSI3 = 55,
-                            X = 34,
-                            Y = 65
-                        },
-                        new
-                        {
-                            ReferencepointId = 135,
-                            Category = 2,
-                            RSSI1 = 82,
-                            RSSI2 = 13,
-                            RSSI3 = 31,
-                            X = 84,
-                            Y = 37
-                        },
-                        new
-                        {
-                            ReferencepointId = 136,
-                            Category = 7,
                             RSSI1 = 50,
-                            RSSI2 = 70,
-                            RSSI3 = 55,
-                            X = 63,
-                            Y = 17
+                            RSSI2 = 14,
+                            RSSI3 = 64,
+                            X = 45,
+                            Y = 58
                         },
                         new
                         {
-                            ReferencepointId = 137,
+                            ReferencepointId = 68,
                             Category = 1,
-                            RSSI1 = 37,
-                            RSSI2 = 90,
-                            RSSI3 = 13,
-                            X = 75,
-                            Y = 22
-                        },
-                        new
-                        {
-                            ReferencepointId = 138,
-                            Category = 8,
-                            RSSI1 = 8,
-                            RSSI2 = 28,
-                            RSSI3 = 87,
-                            X = 53,
-                            Y = 82
-                        },
-                        new
-                        {
-                            ReferencepointId = 139,
-                            Category = 5,
-                            RSSI1 = 49,
-                            RSSI2 = 68,
-                            RSSI3 = 15,
-                            X = 19,
-                            Y = 76
-                        },
-                        new
-                        {
-                            ReferencepointId = 140,
-                            Category = 7,
-                            RSSI1 = 22,
-                            RSSI2 = 28,
-                            RSSI3 = 62,
-                            X = 54,
-                            Y = 48
-                        },
-                        new
-                        {
-                            ReferencepointId = 141,
-                            Category = 2,
-                            RSSI1 = 25,
-                            RSSI2 = 39,
-                            RSSI3 = 88,
-                            X = 22,
+                            RSSI1 = 28,
+                            RSSI2 = 11,
+                            RSSI3 = 89,
+                            X = 59,
                             Y = 18
                         },
                         new
                         {
-                            ReferencepointId = 142,
-                            Category = 8,
-                            RSSI1 = 83,
-                            RSSI2 = 69,
-                            RSSI3 = 47,
-                            X = 35,
-                            Y = 27
-                        },
-                        new
-                        {
-                            ReferencepointId = 143,
-                            Category = 8,
-                            RSSI1 = 66,
-                            RSSI2 = 36,
-                            RSSI3 = 58,
-                            X = 72,
-                            Y = 26
-                        },
-                        new
-                        {
-                            ReferencepointId = 144,
-                            Category = 4,
-                            RSSI1 = 27,
-                            RSSI2 = 29,
-                            RSSI3 = 30,
-                            X = 80,
-                            Y = 36
-                        },
-                        new
-                        {
-                            ReferencepointId = 145,
+                            ReferencepointId = 69,
                             Category = 7,
-                            RSSI1 = 57,
-                            RSSI2 = 32,
-                            RSSI3 = 94,
-                            X = 77,
-                            Y = 42
+                            RSSI1 = 33,
+                            RSSI2 = 4,
+                            RSSI3 = 67,
+                            X = 5,
+                            Y = 22
                         },
                         new
                         {
-                            ReferencepointId = 146,
-                            Category = 8,
-                            RSSI1 = 49,
-                            RSSI2 = 83,
-                            RSSI3 = 42,
-                            X = 96,
-                            Y = 51
+                            ReferencepointId = 70,
+                            Category = 1,
+                            RSSI1 = 21,
+                            RSSI2 = 35,
+                            RSSI3 = 21,
+                            X = 83,
+                            Y = 87
                         },
                         new
                         {
-                            ReferencepointId = 147,
-                            Category = 8,
-                            RSSI1 = 94,
-                            RSSI2 = 85,
-                            RSSI3 = 11,
-                            X = 6,
-                            Y = 70
-                        },
-                        new
-                        {
-                            ReferencepointId = 148,
-                            Category = 2,
-                            RSSI1 = 5,
-                            RSSI2 = 14,
-                            RSSI3 = 41,
-                            X = 36,
-                            Y = 52
-                        },
-                        new
-                        {
-                            ReferencepointId = 149,
-                            Category = 4,
-                            RSSI1 = 19,
-                            RSSI2 = 49,
+                            ReferencepointId = 71,
+                            Category = 9,
+                            RSSI1 = 7,
+                            RSSI2 = 34,
                             RSSI3 = 2,
-                            X = 26,
-                            Y = 27
+                            X = 93,
+                            Y = 30
                         },
                         new
                         {
-                            ReferencepointId = 150,
-                            Category = 2,
-                            RSSI1 = 86,
-                            RSSI2 = 45,
-                            RSSI3 = 3,
-                            X = 20,
-                            Y = 64
-                        },
-                        new
-                        {
-                            ReferencepointId = 151,
+                            ReferencepointId = 72,
                             Category = 8,
-                            RSSI1 = 88,
-                            RSSI2 = 6,
-                            RSSI3 = 27,
-                            X = 58,
-                            Y = 85
+                            RSSI1 = 1,
+                            RSSI2 = 56,
+                            RSSI3 = 65,
+                            X = 69,
+                            Y = 88
                         },
                         new
                         {
-                            ReferencepointId = 152,
-                            Category = 4,
-                            RSSI1 = 37,
-                            RSSI2 = 70,
-                            RSSI3 = 84,
-                            X = 76,
-                            Y = 77
+                            ReferencepointId = 73,
+                            Category = 5,
+                            RSSI1 = 33,
+                            RSSI2 = 45,
+                            RSSI3 = 37,
+                            X = 61,
+                            Y = 80
                         },
                         new
                         {
-                            ReferencepointId = 153,
-                            Category = 4,
-                            RSSI1 = 27,
-                            RSSI2 = 22,
-                            RSSI3 = 58,
-                            X = 17,
-                            Y = 76
-                        },
-                        new
-                        {
-                            ReferencepointId = 154,
+                            ReferencepointId = 74,
                             Category = 2,
-                            RSSI1 = 29,
-                            RSSI2 = 22,
+                            RSSI1 = 93,
+                            RSSI2 = 43,
+                            RSSI3 = 10,
+                            X = 15,
+                            Y = 72
+                        },
+                        new
+                        {
+                            ReferencepointId = 75,
+                            Category = 9,
+                            RSSI1 = 63,
+                            RSSI2 = 43,
+                            RSSI3 = 81,
+                            X = 40,
+                            Y = 69
+                        },
+                        new
+                        {
+                            ReferencepointId = 76,
+                            Category = 7,
+                            RSSI1 = 39,
+                            RSSI2 = 67,
+                            RSSI3 = 27,
+                            X = 71,
+                            Y = 38
+                        },
+                        new
+                        {
+                            ReferencepointId = 77,
+                            Category = 3,
+                            RSSI1 = 6,
+                            RSSI2 = 35,
                             RSSI3 = 80,
-                            X = 53,
+                            X = 3,
                             Y = 59
                         },
                         new
                         {
-                            ReferencepointId = 155,
-                            Category = 9,
-                            RSSI1 = 86,
-                            RSSI2 = 24,
-                            RSSI3 = 57,
-                            X = 22,
-                            Y = 10
-                        },
-                        new
-                        {
-                            ReferencepointId = 156,
-                            Category = 1,
-                            RSSI1 = 79,
-                            RSSI2 = 75,
-                            RSSI3 = 21,
-                            X = 25,
-                            Y = 17
-                        },
-                        new
-                        {
-                            ReferencepointId = 157,
+                            ReferencepointId = 78,
                             Category = 6,
-                            RSSI1 = 86,
-                            RSSI2 = 46,
-                            RSSI3 = 29,
-                            X = 97,
-                            Y = 98
-                        },
-                        new
-                        {
-                            ReferencepointId = 158,
-                            Category = 8,
-                            RSSI1 = 56,
-                            RSSI2 = 43,
-                            RSSI3 = 71,
-                            X = 61,
-                            Y = 98
-                        },
-                        new
-                        {
-                            ReferencepointId = 159,
-                            Category = 1,
-                            RSSI1 = 61,
-                            RSSI2 = 69,
-                            RSSI3 = 68,
-                            X = 80,
-                            Y = 91
-                        },
-                        new
-                        {
-                            ReferencepointId = 160,
-                            Category = 4,
-                            RSSI1 = 6,
-                            RSSI2 = 35,
-                            RSSI3 = 47,
-                            X = 35,
+                            RSSI1 = 13,
+                            RSSI2 = 63,
+                            RSSI3 = 16,
+                            X = 15,
                             Y = 71
                         },
                         new
                         {
-                            ReferencepointId = 161,
-                            Category = 6,
-                            RSSI1 = 86,
-                            RSSI2 = 15,
-                            RSSI3 = 60,
-                            X = 78,
-                            Y = 96
+                            ReferencepointId = 79,
+                            Category = 7,
+                            RSSI1 = 70,
+                            RSSI2 = 59,
+                            RSSI3 = 54,
+                            X = 7,
+                            Y = 89
                         },
                         new
                         {
-                            ReferencepointId = 162,
-                            Category = 1,
-                            RSSI1 = 20,
-                            RSSI2 = 3,
-                            RSSI3 = 6,
+                            ReferencepointId = 80,
+                            Category = 4,
+                            RSSI1 = 82,
+                            RSSI2 = 92,
+                            RSSI3 = 62,
+                            X = 8,
+                            Y = 30
+                        },
+                        new
+                        {
+                            ReferencepointId = 81,
+                            Category = 8,
+                            RSSI1 = 6,
+                            RSSI2 = 61,
+                            RSSI3 = 87,
                             X = 93,
                             Y = 31
                         },
                         new
                         {
-                            ReferencepointId = 163,
+                            ReferencepointId = 82,
+                            Category = 2,
+                            RSSI1 = 26,
+                            RSSI2 = 61,
+                            RSSI3 = 7,
+                            X = 13,
+                            Y = 55
+                        },
+                        new
+                        {
+                            ReferencepointId = 83,
+                            Category = 5,
+                            RSSI1 = 34,
+                            RSSI2 = 91,
+                            RSSI3 = 84,
+                            X = 49,
+                            Y = 3
+                        },
+                        new
+                        {
+                            ReferencepointId = 84,
+                            Category = 1,
+                            RSSI1 = 78,
+                            RSSI2 = 48,
+                            RSSI3 = 71,
+                            X = 4,
+                            Y = 69
+                        },
+                        new
+                        {
+                            ReferencepointId = 85,
+                            Category = 1,
+                            RSSI1 = 18,
+                            RSSI2 = 33,
+                            RSSI3 = 78,
+                            X = 82,
+                            Y = 88
+                        },
+                        new
+                        {
+                            ReferencepointId = 86,
+                            Category = 5,
+                            RSSI1 = 63,
+                            RSSI2 = 98,
+                            RSSI3 = 5,
+                            X = 93,
+                            Y = 96
+                        },
+                        new
+                        {
+                            ReferencepointId = 87,
+                            Category = 9,
+                            RSSI1 = 74,
+                            RSSI2 = 20,
+                            RSSI3 = 33,
+                            X = 94,
+                            Y = 88
+                        },
+                        new
+                        {
+                            ReferencepointId = 88,
+                            Category = 1,
+                            RSSI1 = 70,
+                            RSSI2 = 58,
+                            RSSI3 = 4,
+                            X = 9,
+                            Y = 72
+                        },
+                        new
+                        {
+                            ReferencepointId = 89,
+                            Category = 9,
+                            RSSI1 = 60,
+                            RSSI2 = 34,
+                            RSSI3 = 90,
+                            X = 53,
+                            Y = 30
+                        },
+                        new
+                        {
+                            ReferencepointId = 90,
+                            Category = 8,
+                            RSSI1 = 16,
+                            RSSI2 = 2,
+                            RSSI3 = 91,
+                            X = 76,
+                            Y = 76
+                        },
+                        new
+                        {
+                            ReferencepointId = 91,
+                            Category = 9,
+                            RSSI1 = 43,
+                            RSSI2 = 43,
+                            RSSI3 = 72,
+                            X = 60,
+                            Y = 50
+                        },
+                        new
+                        {
+                            ReferencepointId = 92,
+                            Category = 6,
+                            RSSI1 = 40,
+                            RSSI2 = 41,
+                            RSSI3 = 95,
+                            X = 86,
+                            Y = 75
+                        },
+                        new
+                        {
+                            ReferencepointId = 93,
+                            Category = 8,
+                            RSSI1 = 76,
+                            RSSI2 = 84,
+                            RSSI3 = 60,
+                            X = 61,
+                            Y = 34
+                        },
+                        new
+                        {
+                            ReferencepointId = 94,
+                            Category = 2,
+                            RSSI1 = 7,
+                            RSSI2 = 9,
+                            RSSI3 = 60,
+                            X = 80,
+                            Y = 23
+                        },
+                        new
+                        {
+                            ReferencepointId = 95,
+                            Category = 5,
+                            RSSI1 = 56,
+                            RSSI2 = 10,
+                            RSSI3 = 68,
+                            X = 24,
+                            Y = 77
+                        },
+                        new
+                        {
+                            ReferencepointId = 96,
+                            Category = 9,
+                            RSSI1 = 6,
+                            RSSI2 = 97,
+                            RSSI3 = 44,
+                            X = 34,
+                            Y = 51
+                        },
+                        new
+                        {
+                            ReferencepointId = 97,
+                            Category = 5,
+                            RSSI1 = 38,
+                            RSSI2 = 11,
+                            RSSI3 = 8,
+                            X = 46,
+                            Y = 68
+                        },
+                        new
+                        {
+                            ReferencepointId = 98,
                             Category = 3,
-                            RSSI1 = 93,
+                            RSSI1 = 3,
+                            RSSI2 = 73,
+                            RSSI3 = 58,
+                            X = 8,
+                            Y = 77
+                        },
+                        new
+                        {
+                            ReferencepointId = 99,
+                            Category = 5,
+                            RSSI1 = 22,
+                            RSSI2 = 55,
+                            RSSI3 = 68,
+                            X = 80,
+                            Y = 70
+                        },
+                        new
+                        {
+                            ReferencepointId = 100,
+                            Category = 7,
+                            RSSI1 = 38,
+                            RSSI2 = 63,
+                            RSSI3 = 21,
+                            X = 18,
+                            Y = 5
+                        },
+                        new
+                        {
+                            ReferencepointId = 101,
+                            Category = 4,
+                            RSSI1 = 89,
+                            RSSI2 = 17,
+                            RSSI3 = 64,
+                            X = 2,
+                            Y = 80
+                        },
+                        new
+                        {
+                            ReferencepointId = 102,
+                            Category = 8,
+                            RSSI1 = 39,
+                            RSSI2 = 42,
+                            RSSI3 = 33,
+                            X = 14,
+                            Y = 24
+                        },
+                        new
+                        {
+                            ReferencepointId = 103,
+                            Category = 3,
+                            RSSI1 = 4,
+                            RSSI2 = 60,
+                            RSSI3 = 40,
+                            X = 30,
+                            Y = 78
+                        },
+                        new
+                        {
+                            ReferencepointId = 104,
+                            Category = 5,
+                            RSSI1 = 97,
+                            RSSI2 = 48,
+                            RSSI3 = 32,
+                            X = 23,
+                            Y = 2
+                        },
+                        new
+                        {
+                            ReferencepointId = 105,
+                            Category = 3,
+                            RSSI1 = 26,
+                            RSSI2 = 26,
+                            RSSI3 = 28,
+                            X = 76,
+                            Y = 95
+                        },
+                        new
+                        {
+                            ReferencepointId = 106,
+                            Category = 8,
+                            RSSI1 = 25,
+                            RSSI2 = 21,
+                            RSSI3 = 6,
+                            X = 67,
+                            Y = 57
+                        },
+                        new
+                        {
+                            ReferencepointId = 107,
+                            Category = 5,
+                            RSSI1 = 67,
+                            RSSI2 = 2,
+                            RSSI3 = 93,
+                            X = 80,
+                            Y = 68
+                        },
+                        new
+                        {
+                            ReferencepointId = 108,
+                            Category = 4,
+                            RSSI1 = 13,
+                            RSSI2 = 8,
+                            RSSI3 = 31,
+                            X = 45,
+                            Y = 76
+                        },
+                        new
+                        {
+                            ReferencepointId = 109,
+                            Category = 1,
+                            RSSI1 = 28,
+                            RSSI2 = 9,
+                            RSSI3 = 85,
+                            X = 71,
+                            Y = 20
+                        },
+                        new
+                        {
+                            ReferencepointId = 110,
+                            Category = 6,
+                            RSSI1 = 10,
+                            RSSI2 = 66,
+                            RSSI3 = 16,
+                            X = 42,
+                            Y = 75
+                        },
+                        new
+                        {
+                            ReferencepointId = 111,
+                            Category = 5,
+                            RSSI1 = 50,
+                            RSSI2 = 63,
+                            RSSI3 = 46,
+                            X = 45,
+                            Y = 89
+                        },
+                        new
+                        {
+                            ReferencepointId = 112,
+                            Category = 1,
+                            RSSI1 = 18,
+                            RSSI2 = 37,
+                            RSSI3 = 3,
+                            X = 88,
+                            Y = 63
+                        },
+                        new
+                        {
+                            ReferencepointId = 113,
+                            Category = 7,
+                            RSSI1 = 56,
+                            RSSI2 = 17,
+                            RSSI3 = 79,
+                            X = 95,
+                            Y = 10
+                        },
+                        new
+                        {
+                            ReferencepointId = 114,
+                            Category = 9,
+                            RSSI1 = 91,
+                            RSSI2 = 80,
+                            RSSI3 = 50,
+                            X = 19,
+                            Y = 49
+                        },
+                        new
+                        {
+                            ReferencepointId = 115,
+                            Category = 8,
+                            RSSI1 = 3,
+                            RSSI2 = 54,
+                            RSSI3 = 1,
+                            X = 49,
+                            Y = 58
+                        },
+                        new
+                        {
+                            ReferencepointId = 116,
+                            Category = 9,
+                            RSSI1 = 36,
+                            RSSI2 = 25,
+                            RSSI3 = 26,
+                            X = 39,
+                            Y = 30
+                        },
+                        new
+                        {
+                            ReferencepointId = 117,
+                            Category = 1,
+                            RSSI1 = 89,
+                            RSSI2 = 67,
+                            RSSI3 = 19,
+                            X = 28,
+                            Y = 28
+                        },
+                        new
+                        {
+                            ReferencepointId = 118,
+                            Category = 4,
+                            RSSI1 = 7,
+                            RSSI2 = 40,
+                            RSSI3 = 46,
+                            X = 8,
+                            Y = 16
+                        },
+                        new
+                        {
+                            ReferencepointId = 119,
+                            Category = 1,
+                            RSSI1 = 76,
+                            RSSI2 = 14,
+                            RSSI3 = 57,
+                            X = 23,
+                            Y = 50
+                        },
+                        new
+                        {
+                            ReferencepointId = 120,
+                            Category = 9,
+                            RSSI1 = 5,
+                            RSSI2 = 32,
+                            RSSI3 = 15,
+                            X = 59,
+                            Y = 42
+                        },
+                        new
+                        {
+                            ReferencepointId = 121,
+                            Category = 4,
+                            RSSI1 = 4,
+                            RSSI2 = 68,
+                            RSSI3 = 79,
+                            X = 13,
+                            Y = 52
+                        },
+                        new
+                        {
+                            ReferencepointId = 122,
+                            Category = 4,
+                            RSSI1 = 52,
+                            RSSI2 = 17,
+                            RSSI3 = 87,
+                            X = 74,
+                            Y = 6
+                        },
+                        new
+                        {
+                            ReferencepointId = 123,
+                            Category = 4,
+                            RSSI1 = 74,
+                            RSSI2 = 64,
+                            RSSI3 = 53,
+                            X = 11,
+                            Y = 12
+                        },
+                        new
+                        {
+                            ReferencepointId = 124,
+                            Category = 1,
+                            RSSI1 = 41,
+                            RSSI2 = 95,
+                            RSSI3 = 39,
+                            X = 97,
+                            Y = 72
+                        },
+                        new
+                        {
+                            ReferencepointId = 125,
+                            Category = 5,
+                            RSSI1 = 34,
+                            RSSI2 = 14,
+                            RSSI3 = 75,
+                            X = 31,
+                            Y = 35
+                        },
+                        new
+                        {
+                            ReferencepointId = 126,
+                            Category = 9,
+                            RSSI1 = 91,
                             RSSI2 = 31,
+                            RSSI3 = 26,
+                            X = 83,
+                            Y = 24
+                        },
+                        new
+                        {
+                            ReferencepointId = 127,
+                            Category = 6,
+                            RSSI1 = 60,
+                            RSSI2 = 94,
+                            RSSI3 = 87,
+                            X = 9,
+                            Y = 56
+                        },
+                        new
+                        {
+                            ReferencepointId = 128,
+                            Category = 9,
+                            RSSI1 = 16,
+                            RSSI2 = 3,
+                            RSSI3 = 8,
+                            X = 15,
+                            Y = 48
+                        },
+                        new
+                        {
+                            ReferencepointId = 129,
+                            Category = 8,
+                            RSSI1 = 42,
+                            RSSI2 = 93,
+                            RSSI3 = 21,
+                            X = 6,
+                            Y = 18
+                        },
+                        new
+                        {
+                            ReferencepointId = 130,
+                            Category = 5,
+                            RSSI1 = 96,
+                            RSSI2 = 6,
+                            RSSI3 = 96,
+                            X = 35,
+                            Y = 78
+                        },
+                        new
+                        {
+                            ReferencepointId = 131,
+                            Category = 4,
+                            RSSI1 = 63,
+                            RSSI2 = 21,
+                            RSSI3 = 82,
+                            X = 88,
+                            Y = 82
+                        },
+                        new
+                        {
+                            ReferencepointId = 132,
+                            Category = 7,
+                            RSSI1 = 17,
+                            RSSI2 = 91,
+                            RSSI3 = 40,
+                            X = 93,
+                            Y = 51
+                        },
+                        new
+                        {
+                            ReferencepointId = 133,
+                            Category = 2,
+                            RSSI1 = 22,
+                            RSSI2 = 33,
+                            RSSI3 = 39,
+                            X = 40,
+                            Y = 81
+                        },
+                        new
+                        {
+                            ReferencepointId = 134,
+                            Category = 7,
+                            RSSI1 = 37,
+                            RSSI2 = 19,
+                            RSSI3 = 66,
+                            X = 88,
+                            Y = 88
+                        },
+                        new
+                        {
+                            ReferencepointId = 135,
+                            Category = 4,
+                            RSSI1 = 78,
+                            RSSI2 = 86,
+                            RSSI3 = 14,
+                            X = 78,
+                            Y = 87
+                        },
+                        new
+                        {
+                            ReferencepointId = 136,
+                            Category = 2,
+                            RSSI1 = 63,
+                            RSSI2 = 26,
+                            RSSI3 = 16,
+                            X = 48,
+                            Y = 46
+                        },
+                        new
+                        {
+                            ReferencepointId = 137,
+                            Category = 4,
+                            RSSI1 = 17,
+                            RSSI2 = 27,
+                            RSSI3 = 20,
+                            X = 33,
+                            Y = 98
+                        },
+                        new
+                        {
+                            ReferencepointId = 138,
+                            Category = 6,
+                            RSSI1 = 47,
+                            RSSI2 = 49,
+                            RSSI3 = 42,
+                            X = 4,
+                            Y = 83
+                        },
+                        new
+                        {
+                            ReferencepointId = 139,
+                            Category = 8,
+                            RSSI1 = 9,
+                            RSSI2 = 56,
                             RSSI3 = 24,
-                            X = 99,
+                            X = 26,
                             Y = 97
                         },
                         new
                         {
-                            ReferencepointId = 164,
-                            Category = 2,
-                            RSSI1 = 22,
-                            RSSI2 = 26,
-                            RSSI3 = 25,
-                            X = 52,
-                            Y = 61
-                        },
-                        new
-                        {
-                            ReferencepointId = 165,
-                            Category = 4,
-                            RSSI1 = 38,
-                            RSSI2 = 98,
-                            RSSI3 = 83,
-                            X = 78,
-                            Y = 19
-                        },
-                        new
-                        {
-                            ReferencepointId = 166,
-                            Category = 8,
-                            RSSI1 = 18,
-                            RSSI2 = 52,
-                            RSSI3 = 74,
-                            X = 66,
+                            ReferencepointId = 140,
+                            Category = 6,
+                            RSSI1 = 73,
+                            RSSI2 = 74,
+                            RSSI3 = 33,
+                            X = 40,
                             Y = 11
                         },
                         new
                         {
-                            ReferencepointId = 167,
-                            Category = 8,
-                            RSSI1 = 21,
-                            RSSI2 = 77,
-                            RSSI3 = 46,
+                            ReferencepointId = 141,
+                            Category = 9,
+                            RSSI1 = 62,
+                            RSSI2 = 39,
+                            RSSI3 = 4,
+                            X = 22,
+                            Y = 31
+                        },
+                        new
+                        {
+                            ReferencepointId = 142,
+                            Category = 3,
+                            RSSI1 = 2,
+                            RSSI2 = 73,
+                            RSSI3 = 87,
+                            X = 4,
+                            Y = 24
+                        },
+                        new
+                        {
+                            ReferencepointId = 143,
+                            Category = 5,
+                            RSSI1 = 50,
+                            RSSI2 = 5,
+                            RSSI3 = 20,
+                            X = 10,
+                            Y = 42
+                        },
+                        new
+                        {
+                            ReferencepointId = 144,
+                            Category = 4,
+                            RSSI1 = 99,
+                            RSSI2 = 75,
+                            RSSI3 = 3,
+                            X = 29,
+                            Y = 69
+                        },
+                        new
+                        {
+                            ReferencepointId = 145,
+                            Category = 3,
+                            RSSI1 = 94,
+                            RSSI2 = 37,
+                            RSSI3 = 28,
+                            X = 56,
+                            Y = 75
+                        },
+                        new
+                        {
+                            ReferencepointId = 146,
+                            Category = 7,
+                            RSSI1 = 3,
+                            RSSI2 = 76,
+                            RSSI3 = 17,
+                            X = 23,
+                            Y = 70
+                        },
+                        new
+                        {
+                            ReferencepointId = 147,
+                            Category = 6,
+                            RSSI1 = 53,
+                            RSSI2 = 26,
+                            RSSI3 = 18,
+                            X = 17,
+                            Y = 2
+                        },
+                        new
+                        {
+                            ReferencepointId = 148,
+                            Category = 1,
+                            RSSI1 = 96,
+                            RSSI2 = 6,
+                            RSSI3 = 33,
                             X = 69,
+                            Y = 76
+                        },
+                        new
+                        {
+                            ReferencepointId = 149,
+                            Category = 9,
+                            RSSI1 = 40,
+                            RSSI2 = 64,
+                            RSSI3 = 32,
+                            X = 93,
                             Y = 41
                         },
                         new
                         {
-                            ReferencepointId = 168,
+                            ReferencepointId = 150,
+                            Category = 4,
+                            RSSI1 = 94,
+                            RSSI2 = 33,
+                            RSSI3 = 69,
+                            X = 73,
+                            Y = 27
+                        },
+                        new
+                        {
+                            ReferencepointId = 151,
                             Category = 9,
-                            RSSI1 = 99,
-                            RSSI2 = 68,
-                            RSSI3 = 39,
-                            X = 39,
-                            Y = 87
+                            RSSI1 = 97,
+                            RSSI2 = 45,
+                            RSSI3 = 98,
+                            X = 17,
+                            Y = 1
+                        },
+                        new
+                        {
+                            ReferencepointId = 152,
+                            Category = 5,
+                            RSSI1 = 38,
+                            RSSI2 = 27,
+                            RSSI3 = 34,
+                            X = 60,
+                            Y = 57
+                        },
+                        new
+                        {
+                            ReferencepointId = 153,
+                            Category = 2,
+                            RSSI1 = 22,
+                            RSSI2 = 83,
+                            RSSI3 = 73,
+                            X = 92,
+                            Y = 32
+                        },
+                        new
+                        {
+                            ReferencepointId = 154,
+                            Category = 6,
+                            RSSI1 = 97,
+                            RSSI2 = 25,
+                            RSSI3 = 60,
+                            X = 35,
+                            Y = 17
+                        },
+                        new
+                        {
+                            ReferencepointId = 155,
+                            Category = 2,
+                            RSSI1 = 39,
+                            RSSI2 = 10,
+                            RSSI3 = 36,
+                            X = 80,
+                            Y = 29
+                        },
+                        new
+                        {
+                            ReferencepointId = 156,
+                            Category = 4,
+                            RSSI1 = 90,
+                            RSSI2 = 79,
+                            RSSI3 = 98,
+                            X = 24,
+                            Y = 20
+                        },
+                        new
+                        {
+                            ReferencepointId = 157,
+                            Category = 6,
+                            RSSI1 = 12,
+                            RSSI2 = 80,
+                            RSSI3 = 5,
+                            X = 85,
+                            Y = 32
+                        },
+                        new
+                        {
+                            ReferencepointId = 158,
+                            Category = 5,
+                            RSSI1 = 59,
+                            RSSI2 = 79,
+                            RSSI3 = 7,
+                            X = 16,
+                            Y = 71
+                        },
+                        new
+                        {
+                            ReferencepointId = 159,
+                            Category = 6,
+                            RSSI1 = 63,
+                            RSSI2 = 2,
+                            RSSI3 = 1,
+                            X = 6,
+                            Y = 75
+                        },
+                        new
+                        {
+                            ReferencepointId = 160,
+                            Category = 1,
+                            RSSI1 = 34,
+                            RSSI2 = 62,
+                            RSSI3 = 29,
+                            X = 87,
+                            Y = 77
+                        },
+                        new
+                        {
+                            ReferencepointId = 161,
+                            Category = 9,
+                            RSSI1 = 13,
+                            RSSI2 = 57,
+                            RSSI3 = 98,
+                            X = 96,
+                            Y = 70
+                        },
+                        new
+                        {
+                            ReferencepointId = 162,
+                            Category = 7,
+                            RSSI1 = 18,
+                            RSSI2 = 98,
+                            RSSI3 = 63,
+                            X = 16,
+                            Y = 81
+                        },
+                        new
+                        {
+                            ReferencepointId = 163,
+                            Category = 5,
+                            RSSI1 = 59,
+                            RSSI2 = 13,
+                            RSSI3 = 93,
+                            X = 12,
+                            Y = 76
+                        },
+                        new
+                        {
+                            ReferencepointId = 164,
+                            Category = 4,
+                            RSSI1 = 5,
+                            RSSI2 = 24,
+                            RSSI3 = 38,
+                            X = 77,
+                            Y = 18
+                        },
+                        new
+                        {
+                            ReferencepointId = 165,
+                            Category = 3,
+                            RSSI1 = 37,
+                            RSSI2 = 84,
+                            RSSI3 = 4,
+                            X = 96,
+                            Y = 89
+                        },
+                        new
+                        {
+                            ReferencepointId = 166,
+                            Category = 6,
+                            RSSI1 = 28,
+                            RSSI2 = 24,
+                            RSSI3 = 3,
+                            X = 13,
+                            Y = 72
+                        },
+                        new
+                        {
+                            ReferencepointId = 167,
+                            Category = 7,
+                            RSSI1 = 51,
+                            RSSI2 = 63,
+                            RSSI3 = 10,
+                            X = 30,
+                            Y = 97
+                        },
+                        new
+                        {
+                            ReferencepointId = 168,
+                            Category = 7,
+                            RSSI1 = 94,
+                            RSSI2 = 47,
+                            RSSI3 = 21,
+                            X = 49,
+                            Y = 46
                         },
                         new
                         {
                             ReferencepointId = 169,
                             Category = 6,
-                            RSSI1 = 19,
-                            RSSI2 = 6,
-                            RSSI3 = 37,
-                            X = 30,
-                            Y = 13
+                            RSSI1 = 9,
+                            RSSI2 = 22,
+                            RSSI3 = 86,
+                            X = 92,
+                            Y = 82
                         },
                         new
                         {
                             ReferencepointId = 170,
                             Category = 5,
-                            RSSI1 = 38,
+                            RSSI1 = 54,
                             RSSI2 = 35,
-                            RSSI3 = 54,
-                            X = 20,
-                            Y = 41
+                            RSSI3 = 40,
+                            X = 71,
+                            Y = 60
                         },
                         new
                         {
                             ReferencepointId = 171,
-                            Category = 9,
-                            RSSI1 = 19,
-                            RSSI2 = 41,
-                            RSSI3 = 83,
-                            X = 23,
-                            Y = 75
+                            Category = 8,
+                            RSSI1 = 74,
+                            RSSI2 = 22,
+                            RSSI3 = 9,
+                            X = 5,
+                            Y = 88
                         },
                         new
                         {
                             ReferencepointId = 172,
-                            Category = 8,
-                            RSSI1 = 55,
-                            RSSI2 = 28,
-                            RSSI3 = 21,
-                            X = 41,
-                            Y = 78
+                            Category = 6,
+                            RSSI1 = 49,
+                            RSSI2 = 47,
+                            RSSI3 = 40,
+                            X = 19,
+                            Y = 61
                         },
                         new
                         {
                             ReferencepointId = 173,
                             Category = 2,
-                            RSSI1 = 70,
-                            RSSI2 = 52,
-                            RSSI3 = 84,
-                            X = 28,
-                            Y = 53
+                            RSSI1 = 28,
+                            RSSI2 = 75,
+                            RSSI3 = 26,
+                            X = 65,
+                            Y = 82
                         },
                         new
                         {
                             ReferencepointId = 174,
-                            Category = 9,
-                            RSSI1 = 2,
-                            RSSI2 = 99,
-                            RSSI3 = 12,
-                            X = 24,
-                            Y = 60
+                            Category = 7,
+                            RSSI1 = 7,
+                            RSSI2 = 87,
+                            RSSI3 = 38,
+                            X = 41,
+                            Y = 88
                         },
                         new
                         {
                             ReferencepointId = 175,
-                            Category = 2,
-                            RSSI1 = 46,
-                            RSSI2 = 87,
-                            RSSI3 = 39,
-                            X = 29,
-                            Y = 29
+                            Category = 7,
+                            RSSI1 = 72,
+                            RSSI2 = 36,
+                            RSSI3 = 41,
+                            X = 49,
+                            Y = 59
                         },
                         new
                         {
                             ReferencepointId = 176,
-                            Category = 7,
-                            RSSI1 = 29,
-                            RSSI2 = 1,
-                            RSSI3 = 37,
-                            X = 48,
-                            Y = 50
+                            Category = 4,
+                            RSSI1 = 34,
+                            RSSI2 = 79,
+                            RSSI3 = 4,
+                            X = 24,
+                            Y = 55
                         },
                         new
                         {
                             ReferencepointId = 177,
-                            Category = 9,
-                            RSSI1 = 14,
-                            RSSI2 = 76,
-                            RSSI3 = 92,
-                            X = 60,
-                            Y = 83
+                            Category = 7,
+                            RSSI1 = 64,
+                            RSSI2 = 90,
+                            RSSI3 = 59,
+                            X = 63,
+                            Y = 99
                         },
                         new
                         {
                             ReferencepointId = 178,
-                            Category = 6,
-                            RSSI1 = 39,
-                            RSSI2 = 78,
-                            RSSI3 = 27,
-                            X = 17,
-                            Y = 60
+                            Category = 9,
+                            RSSI1 = 23,
+                            RSSI2 = 89,
+                            RSSI3 = 61,
+                            X = 73,
+                            Y = 64
                         },
                         new
                         {
                             ReferencepointId = 179,
-                            Category = 6,
-                            RSSI1 = 61,
-                            RSSI2 = 10,
-                            RSSI3 = 81,
-                            X = 61,
-                            Y = 19
+                            Category = 1,
+                            RSSI1 = 29,
+                            RSSI2 = 88,
+                            RSSI3 = 52,
+                            X = 70,
+                            Y = 65
                         },
                         new
                         {
                             ReferencepointId = 180,
-                            Category = 4,
-                            RSSI1 = 86,
-                            RSSI2 = 95,
-                            RSSI3 = 81,
-                            X = 70,
-                            Y = 77
+                            Category = 7,
+                            RSSI1 = 48,
+                            RSSI2 = 33,
+                            RSSI3 = 34,
+                            X = 41,
+                            Y = 33
                         },
                         new
                         {
                             ReferencepointId = 181,
-                            Category = 8,
-                            RSSI1 = 40,
-                            RSSI2 = 27,
-                            RSSI3 = 98,
-                            X = 45,
-                            Y = 12
+                            Category = 5,
+                            RSSI1 = 17,
+                            RSSI2 = 1,
+                            RSSI3 = 88,
+                            X = 3,
+                            Y = 85
                         },
                         new
                         {
                             ReferencepointId = 182,
                             Category = 8,
-                            RSSI1 = 83,
-                            RSSI2 = 22,
-                            RSSI3 = 3,
-                            X = 84,
-                            Y = 15
+                            RSSI1 = 10,
+                            RSSI2 = 5,
+                            RSSI3 = 20,
+                            X = 50,
+                            Y = 2
                         },
                         new
                         {
                             ReferencepointId = 183,
-                            Category = 7,
-                            RSSI1 = 1,
-                            RSSI2 = 42,
-                            RSSI3 = 17,
-                            X = 52,
-                            Y = 85
+                            Category = 9,
+                            RSSI1 = 11,
+                            RSSI2 = 43,
+                            RSSI3 = 88,
+                            X = 39,
+                            Y = 19
                         },
                         new
                         {
                             ReferencepointId = 184,
-                            Category = 8,
-                            RSSI1 = 86,
-                            RSSI2 = 29,
-                            RSSI3 = 28,
-                            X = 78,
-                            Y = 68
+                            Category = 9,
+                            RSSI1 = 7,
+                            RSSI2 = 99,
+                            RSSI3 = 71,
+                            X = 34,
+                            Y = 21
                         },
                         new
                         {
                             ReferencepointId = 185,
-                            Category = 2,
-                            RSSI1 = 94,
-                            RSSI2 = 67,
-                            RSSI3 = 82,
-                            X = 96,
-                            Y = 62
+                            Category = 7,
+                            RSSI1 = 85,
+                            RSSI2 = 64,
+                            RSSI3 = 15,
+                            X = 31,
+                            Y = 75
                         },
                         new
                         {
                             ReferencepointId = 186,
-                            Category = 5,
-                            RSSI1 = 19,
-                            RSSI2 = 44,
-                            RSSI3 = 99,
-                            X = 5,
-                            Y = 20
+                            Category = 2,
+                            RSSI1 = 43,
+                            RSSI2 = 23,
+                            RSSI3 = 57,
+                            X = 7,
+                            Y = 47
                         },
                         new
                         {
                             ReferencepointId = 187,
-                            Category = 6,
-                            RSSI1 = 61,
-                            RSSI2 = 93,
-                            RSSI3 = 66,
-                            X = 49,
-                            Y = 34
+                            Category = 9,
+                            RSSI1 = 12,
+                            RSSI2 = 20,
+                            RSSI3 = 5,
+                            X = 80,
+                            Y = 63
                         },
                         new
                         {
                             ReferencepointId = 188,
-                            Category = 4,
-                            RSSI1 = 58,
-                            RSSI2 = 76,
-                            RSSI3 = 94,
-                            X = 5,
-                            Y = 60
+                            Category = 6,
+                            RSSI1 = 87,
+                            RSSI2 = 78,
+                            RSSI3 = 86,
+                            X = 59,
+                            Y = 59
                         },
                         new
                         {
                             ReferencepointId = 189,
-                            Category = 7,
-                            RSSI1 = 25,
-                            RSSI2 = 35,
-                            RSSI3 = 11,
-                            X = 99,
-                            Y = 84
+                            Category = 2,
+                            RSSI1 = 83,
+                            RSSI2 = 9,
+                            RSSI3 = 15,
+                            X = 35,
+                            Y = 35
                         },
                         new
                         {
                             ReferencepointId = 190,
-                            Category = 5,
-                            RSSI1 = 60,
-                            RSSI2 = 62,
-                            RSSI3 = 59,
-                            X = 79,
-                            Y = 51
+                            Category = 4,
+                            RSSI1 = 80,
+                            RSSI2 = 82,
+                            RSSI3 = 80,
+                            X = 18,
+                            Y = 17
                         },
                         new
                         {
                             ReferencepointId = 191,
-                            Category = 5,
-                            RSSI1 = 96,
-                            RSSI2 = 87,
-                            RSSI3 = 60,
-                            X = 48,
-                            Y = 66
+                            Category = 2,
+                            RSSI1 = 67,
+                            RSSI2 = 78,
+                            RSSI3 = 29,
+                            X = 97,
+                            Y = 7
                         },
                         new
                         {
                             ReferencepointId = 192,
-                            Category = 7,
-                            RSSI1 = 77,
-                            RSSI2 = 96,
-                            RSSI3 = 22,
-                            X = 60,
-                            Y = 91
+                            Category = 8,
+                            RSSI1 = 36,
+                            RSSI2 = 4,
+                            RSSI3 = 96,
+                            X = 89,
+                            Y = 28
                         },
                         new
                         {
                             ReferencepointId = 193,
                             Category = 9,
-                            RSSI1 = 16,
-                            RSSI2 = 37,
-                            RSSI3 = 95,
-                            X = 89,
-                            Y = 21
+                            RSSI1 = 94,
+                            RSSI2 = 26,
+                            RSSI3 = 36,
+                            X = 12,
+                            Y = 46
                         },
                         new
                         {
                             ReferencepointId = 194,
-                            Category = 9,
-                            RSSI1 = 25,
-                            RSSI2 = 89,
-                            RSSI3 = 7,
-                            X = 6,
-                            Y = 71
+                            Category = 4,
+                            RSSI1 = 83,
+                            RSSI2 = 27,
+                            RSSI3 = 5,
+                            X = 92,
+                            Y = 48
                         },
                         new
                         {
                             ReferencepointId = 195,
-                            Category = 3,
-                            RSSI1 = 45,
-                            RSSI2 = 19,
-                            RSSI3 = 59,
-                            X = 51,
-                            Y = 44
+                            Category = 7,
+                            RSSI1 = 8,
+                            RSSI2 = 8,
+                            RSSI3 = 87,
+                            X = 24,
+                            Y = 27
                         },
                         new
                         {
                             ReferencepointId = 196,
                             Category = 6,
-                            RSSI1 = 97,
-                            RSSI2 = 81,
-                            RSSI3 = 42,
-                            X = 22,
-                            Y = 53
+                            RSSI1 = 19,
+                            RSSI2 = 93,
+                            RSSI3 = 3,
+                            X = 82,
+                            Y = 13
                         },
                         new
                         {
                             ReferencepointId = 197,
-                            Category = 5,
-                            RSSI1 = 78,
-                            RSSI2 = 10,
-                            RSSI3 = 11,
-                            X = 24,
-                            Y = 28
+                            Category = 8,
+                            RSSI1 = 31,
+                            RSSI2 = 90,
+                            RSSI3 = 72,
+                            X = 8,
+                            Y = 24
                         },
                         new
                         {
                             ReferencepointId = 198,
                             Category = 6,
-                            RSSI1 = 56,
-                            RSSI2 = 64,
-                            RSSI3 = 43,
-                            X = 19,
-                            Y = 84
+                            RSSI1 = 26,
+                            RSSI2 = 94,
+                            RSSI3 = 81,
+                            X = 16,
+                            Y = 41
                         },
                         new
                         {
                             ReferencepointId = 199,
-                            Category = 5,
-                            RSSI1 = 53,
-                            RSSI2 = 71,
-                            RSSI3 = 41,
-                            X = 67,
-                            Y = 55
+                            Category = 1,
+                            RSSI1 = 97,
+                            RSSI2 = 69,
+                            RSSI3 = 37,
+                            X = 39,
+                            Y = 34
                         },
                         new
                         {
                             ReferencepointId = 200,
-                            Category = 6,
-                            RSSI1 = 38,
-                            RSSI2 = 91,
-                            RSSI3 = 16,
-                            X = 33,
-                            Y = 4
+                            Category = 9,
+                            RSSI1 = 18,
+                            RSSI2 = 75,
+                            RSSI3 = 31,
+                            X = 62,
+                            Y = 90
                         },
                         new
                         {
                             ReferencepointId = 201,
-                            Category = 5,
-                            RSSI1 = 12,
-                            RSSI2 = 27,
-                            RSSI3 = 53,
-                            X = 63,
-                            Y = 63
+                            Category = 9,
+                            RSSI1 = 91,
+                            RSSI2 = 13,
+                            RSSI3 = 77,
+                            X = 32,
+                            Y = 70
                         },
                         new
                         {
                             ReferencepointId = 202,
-                            Category = 1,
-                            RSSI1 = 49,
-                            RSSI2 = 93,
-                            RSSI3 = 84,
-                            X = 49,
-                            Y = 11
+                            Category = 4,
+                            RSSI1 = 96,
+                            RSSI2 = 12,
+                            RSSI3 = 14,
+                            X = 52,
+                            Y = 80
                         },
                         new
                         {
                             ReferencepointId = 203,
-                            Category = 1,
-                            RSSI1 = 81,
-                            RSSI2 = 2,
-                            RSSI3 = 61,
-                            X = 43,
-                            Y = 50
+                            Category = 6,
+                            RSSI1 = 69,
+                            RSSI2 = 76,
+                            RSSI3 = 3,
+                            X = 49,
+                            Y = 67
                         },
                         new
                         {
                             ReferencepointId = 204,
-                            Category = 1,
-                            RSSI1 = 84,
-                            RSSI2 = 26,
-                            RSSI3 = 34,
-                            X = 13,
-                            Y = 97
+                            Category = 5,
+                            RSSI1 = 86,
+                            RSSI2 = 92,
+                            RSSI3 = 67,
+                            X = 78,
+                            Y = 26
                         },
                         new
                         {
                             ReferencepointId = 205,
-                            Category = 7,
-                            RSSI1 = 17,
-                            RSSI2 = 31,
-                            RSSI3 = 26,
-                            X = 80,
-                            Y = 83
+                            Category = 6,
+                            RSSI1 = 28,
+                            RSSI2 = 79,
+                            RSSI3 = 59,
+                            X = 12,
+                            Y = 65
                         },
                         new
                         {
                             ReferencepointId = 206,
-                            Category = 6,
-                            RSSI1 = 31,
-                            RSSI2 = 46,
-                            RSSI3 = 7,
-                            X = 63,
-                            Y = 12
+                            Category = 4,
+                            RSSI1 = 53,
+                            RSSI2 = 69,
+                            RSSI3 = 1,
+                            X = 73,
+                            Y = 16
                         },
                         new
                         {
                             ReferencepointId = 207,
-                            Category = 1,
-                            RSSI1 = 11,
-                            RSSI2 = 92,
-                            RSSI3 = 2,
-                            X = 33,
-                            Y = 69
-                        },
-                        new
-                        {
-                            ReferencepointId = 208,
-                            Category = 9,
-                            RSSI1 = 63,
-                            RSSI2 = 5,
-                            RSSI3 = 61,
-                            X = 31,
-                            Y = 86
-                        },
-                        new
-                        {
-                            ReferencepointId = 209,
-                            Category = 5,
-                            RSSI1 = 1,
-                            RSSI2 = 94,
-                            RSSI3 = 42,
-                            X = 8,
-                            Y = 48
-                        },
-                        new
-                        {
-                            ReferencepointId = 210,
-                            Category = 7,
-                            RSSI1 = 14,
-                            RSSI2 = 99,
-                            RSSI3 = 29,
-                            X = 81,
-                            Y = 46
-                        },
-                        new
-                        {
-                            ReferencepointId = 211,
-                            Category = 3,
-                            RSSI1 = 84,
-                            RSSI2 = 69,
-                            RSSI3 = 11,
-                            X = 23,
+                            Category = 2,
+                            RSSI1 = 78,
+                            RSSI2 = 93,
+                            RSSI3 = 24,
+                            X = 47,
                             Y = 19
                         },
                         new
                         {
-                            ReferencepointId = 212,
+                            ReferencepointId = 208,
+                            Category = 3,
+                            RSSI1 = 95,
+                            RSSI2 = 45,
+                            RSSI3 = 88,
+                            X = 81,
+                            Y = 69
+                        },
+                        new
+                        {
+                            ReferencepointId = 209,
                             Category = 6,
-                            RSSI1 = 4,
-                            RSSI2 = 18,
-                            RSSI3 = 89,
-                            X = 60,
-                            Y = 33
+                            RSSI1 = 87,
+                            RSSI2 = 69,
+                            RSSI3 = 8,
+                            X = 78,
+                            Y = 75
+                        },
+                        new
+                        {
+                            ReferencepointId = 210,
+                            Category = 9,
+                            RSSI1 = 32,
+                            RSSI2 = 14,
+                            RSSI3 = 86,
+                            X = 21,
+                            Y = 5
+                        },
+                        new
+                        {
+                            ReferencepointId = 211,
+                            Category = 9,
+                            RSSI1 = 74,
+                            RSSI2 = 84,
+                            RSSI3 = 46,
+                            X = 75,
+                            Y = 98
+                        },
+                        new
+                        {
+                            ReferencepointId = 212,
+                            Category = 2,
+                            RSSI1 = 56,
+                            RSSI2 = 96,
+                            RSSI3 = 60,
+                            X = 91,
+                            Y = 70
                         },
                         new
                         {
                             ReferencepointId = 213,
-                            Category = 6,
-                            RSSI1 = 7,
-                            RSSI2 = 51,
-                            RSSI3 = 56,
-                            X = 44,
-                            Y = 50
+                            Category = 7,
+                            RSSI1 = 29,
+                            RSSI2 = 40,
+                            RSSI3 = 73,
+                            X = 38,
+                            Y = 82
                         },
                         new
                         {
                             ReferencepointId = 214,
-                            Category = 9,
-                            RSSI1 = 12,
-                            RSSI2 = 86,
-                            RSSI3 = 44,
-                            X = 72,
-                            Y = 80
+                            Category = 8,
+                            RSSI1 = 69,
+                            RSSI2 = 47,
+                            RSSI3 = 11,
+                            X = 2,
+                            Y = 24
                         },
                         new
                         {
                             ReferencepointId = 215,
                             Category = 9,
-                            RSSI1 = 20,
-                            RSSI2 = 23,
-                            RSSI3 = 97,
-                            X = 29,
-                            Y = 49
+                            RSSI1 = 30,
+                            RSSI2 = 75,
+                            RSSI3 = 93,
+                            X = 3,
+                            Y = 42
                         },
                         new
                         {
                             ReferencepointId = 216,
-                            Category = 2,
-                            RSSI1 = 72,
-                            RSSI2 = 30,
-                            RSSI3 = 47,
-                            X = 69,
-                            Y = 49
+                            Category = 1,
+                            RSSI1 = 26,
+                            RSSI2 = 58,
+                            RSSI3 = 88,
+                            X = 33,
+                            Y = 72
                         },
                         new
                         {
                             ReferencepointId = 217,
-                            Category = 1,
-                            RSSI1 = 80,
-                            RSSI2 = 40,
-                            RSSI3 = 85,
-                            X = 96,
-                            Y = 27
+                            Category = 4,
+                            RSSI1 = 83,
+                            RSSI2 = 20,
+                            RSSI3 = 47,
+                            X = 77,
+                            Y = 25
                         },
                         new
                         {
                             ReferencepointId = 218,
                             Category = 7,
-                            RSSI1 = 65,
-                            RSSI2 = 40,
-                            RSSI3 = 61,
-                            X = 84,
-                            Y = 2
+                            RSSI1 = 98,
+                            RSSI2 = 96,
+                            RSSI3 = 98,
+                            X = 34,
+                            Y = 49
                         },
                         new
                         {
                             ReferencepointId = 219,
-                            Category = 9,
-                            RSSI1 = 21,
-                            RSSI2 = 70,
-                            RSSI3 = 49,
-                            X = 36,
-                            Y = 69
+                            Category = 4,
+                            RSSI1 = 25,
+                            RSSI2 = 93,
+                            RSSI3 = 31,
+                            X = 5,
+                            Y = 51
                         },
                         new
                         {
                             ReferencepointId = 220,
                             Category = 6,
-                            RSSI1 = 88,
-                            RSSI2 = 13,
-                            RSSI3 = 89,
-                            X = 21,
-                            Y = 3
+                            RSSI1 = 81,
+                            RSSI2 = 73,
+                            RSSI3 = 61,
+                            X = 49,
+                            Y = 46
                         },
                         new
                         {
                             ReferencepointId = 221,
-                            Category = 9,
-                            RSSI1 = 66,
-                            RSSI2 = 74,
-                            RSSI3 = 68,
-                            X = 76,
-                            Y = 88
+                            Category = 3,
+                            RSSI1 = 18,
+                            RSSI2 = 54,
+                            RSSI3 = 55,
+                            X = 57,
+                            Y = 66
                         },
                         new
                         {
                             ReferencepointId = 222,
-                            Category = 1,
-                            RSSI1 = 10,
-                            RSSI2 = 37,
-                            RSSI3 = 3,
-                            X = 56,
-                            Y = 63
+                            Category = 2,
+                            RSSI1 = 85,
+                            RSSI2 = 96,
+                            RSSI3 = 67,
+                            X = 39,
+                            Y = 55
                         },
                         new
                         {
                             ReferencepointId = 223,
-                            Category = 1,
-                            RSSI1 = 8,
-                            RSSI2 = 16,
-                            RSSI3 = 59,
-                            X = 75,
-                            Y = 8
+                            Category = 6,
+                            RSSI1 = 35,
+                            RSSI2 = 92,
+                            RSSI3 = 22,
+                            X = 37,
+                            Y = 4
                         },
                         new
                         {
                             ReferencepointId = 224,
-                            Category = 4,
-                            RSSI1 = 28,
-                            RSSI2 = 36,
-                            RSSI3 = 21,
-                            X = 1,
-                            Y = 9
+                            Category = 3,
+                            RSSI1 = 98,
+                            RSSI2 = 96,
+                            RSSI3 = 26,
+                            X = 57,
+                            Y = 77
                         },
                         new
                         {
                             ReferencepointId = 225,
-                            Category = 8,
-                            RSSI1 = 64,
-                            RSSI2 = 37,
-                            RSSI3 = 60,
-                            X = 87,
-                            Y = 81
+                            Category = 5,
+                            RSSI1 = 72,
+                            RSSI2 = 21,
+                            RSSI3 = 7,
+                            X = 31,
+                            Y = 52
                         },
                         new
                         {
                             ReferencepointId = 226,
-                            Category = 4,
-                            RSSI1 = 12,
-                            RSSI2 = 60,
-                            RSSI3 = 38,
-                            X = 90,
-                            Y = 30
+                            Category = 9,
+                            RSSI1 = 73,
+                            RSSI2 = 35,
+                            RSSI3 = 74,
+                            X = 23,
+                            Y = 59
                         },
                         new
                         {
                             ReferencepointId = 227,
-                            Category = 5,
-                            RSSI1 = 99,
-                            RSSI2 = 88,
-                            RSSI3 = 52,
-                            X = 58,
-                            Y = 75
+                            Category = 7,
+                            RSSI1 = 19,
+                            RSSI2 = 41,
+                            RSSI3 = 30,
+                            X = 85,
+                            Y = 49
                         },
                         new
                         {
                             ReferencepointId = 228,
-                            Category = 6,
-                            RSSI1 = 94,
-                            RSSI2 = 65,
-                            RSSI3 = 7,
-                            X = 39,
-                            Y = 28
+                            Category = 5,
+                            RSSI1 = 69,
+                            RSSI2 = 85,
+                            RSSI3 = 39,
+                            X = 68,
+                            Y = 70
                         },
                         new
                         {
                             ReferencepointId = 229,
-                            Category = 5,
-                            RSSI1 = 1,
-                            RSSI2 = 13,
-                            RSSI3 = 6,
-                            X = 49,
-                            Y = 92
+                            Category = 6,
+                            RSSI1 = 36,
+                            RSSI2 = 44,
+                            RSSI3 = 70,
+                            X = 33,
+                            Y = 51
                         },
                         new
                         {
                             ReferencepointId = 230,
-                            Category = 7,
-                            RSSI1 = 75,
-                            RSSI2 = 66,
-                            RSSI3 = 66,
-                            X = 89,
-                            Y = 13
+                            Category = 5,
+                            RSSI1 = 97,
+                            RSSI2 = 60,
+                            RSSI3 = 76,
+                            X = 7,
+                            Y = 85
                         },
                         new
                         {
                             ReferencepointId = 231,
                             Category = 5,
-                            RSSI1 = 44,
-                            RSSI2 = 23,
-                            RSSI3 = 56,
-                            X = 66,
-                            Y = 44
+                            RSSI1 = 6,
+                            RSSI2 = 54,
+                            RSSI3 = 45,
+                            X = 68,
+                            Y = 66
                         },
                         new
                         {
                             ReferencepointId = 232,
-                            Category = 1,
-                            RSSI1 = 72,
-                            RSSI2 = 18,
-                            RSSI3 = 85,
-                            X = 7,
-                            Y = 76
+                            Category = 2,
+                            RSSI1 = 88,
+                            RSSI2 = 12,
+                            RSSI3 = 33,
+                            X = 50,
+                            Y = 19
                         },
                         new
                         {
                             ReferencepointId = 233,
-                            Category = 2,
-                            RSSI1 = 87,
-                            RSSI2 = 70,
-                            RSSI3 = 60,
-                            X = 56,
-                            Y = 7
+                            Category = 6,
+                            RSSI1 = 97,
+                            RSSI2 = 13,
+                            RSSI3 = 47,
+                            X = 73,
+                            Y = 88
                         },
                         new
                         {
                             ReferencepointId = 234,
-                            Category = 4,
-                            RSSI1 = 72,
-                            RSSI2 = 25,
-                            RSSI3 = 9,
-                            X = 6,
-                            Y = 86
+                            Category = 9,
+                            RSSI1 = 10,
+                            RSSI2 = 5,
+                            RSSI3 = 50,
+                            X = 48,
+                            Y = 95
                         },
                         new
                         {
                             ReferencepointId = 235,
-                            Category = 7,
-                            RSSI1 = 31,
-                            RSSI2 = 62,
-                            RSSI3 = 67,
-                            X = 71,
-                            Y = 15
+                            Category = 1,
+                            RSSI1 = 29,
+                            RSSI2 = 40,
+                            RSSI3 = 84,
+                            X = 25,
+                            Y = 25
                         },
                         new
                         {
                             ReferencepointId = 236,
-                            Category = 6,
-                            RSSI1 = 86,
-                            RSSI2 = 11,
-                            RSSI3 = 75,
-                            X = 1,
-                            Y = 14
+                            Category = 9,
+                            RSSI1 = 95,
+                            RSSI2 = 12,
+                            RSSI3 = 56,
+                            X = 84,
+                            Y = 79
                         },
                         new
                         {
                             ReferencepointId = 237,
-                            Category = 5,
-                            RSSI1 = 10,
-                            RSSI2 = 29,
-                            RSSI3 = 22,
-                            X = 4,
-                            Y = 67
+                            Category = 9,
+                            RSSI1 = 8,
+                            RSSI2 = 1,
+                            RSSI3 = 20,
+                            X = 19,
+                            Y = 79
                         },
                         new
                         {
                             ReferencepointId = 238,
-                            Category = 1,
-                            RSSI1 = 68,
-                            RSSI2 = 94,
-                            RSSI3 = 37,
-                            X = 86,
-                            Y = 62
+                            Category = 6,
+                            RSSI1 = 26,
+                            RSSI2 = 86,
+                            RSSI3 = 25,
+                            X = 9,
+                            Y = 35
                         },
                         new
                         {
                             ReferencepointId = 239,
-                            Category = 3,
-                            RSSI1 = 7,
-                            RSSI2 = 20,
-                            RSSI3 = 60,
-                            X = 23,
-                            Y = 17
+                            Category = 4,
+                            RSSI1 = 3,
+                            RSSI2 = 24,
+                            RSSI3 = 72,
+                            X = 83,
+                            Y = 96
                         },
                         new
                         {
                             ReferencepointId = 240,
                             Category = 8,
-                            RSSI1 = 43,
-                            RSSI2 = 38,
-                            RSSI3 = 36,
-                            X = 87,
-                            Y = 35
+                            RSSI1 = 96,
+                            RSSI2 = 58,
+                            RSSI3 = 59,
+                            X = 37,
+                            Y = 40
                         },
                         new
                         {
                             ReferencepointId = 241,
-                            Category = 8,
-                            RSSI1 = 36,
-                            RSSI2 = 2,
-                            RSSI3 = 3,
-                            X = 22,
-                            Y = 20
+                            Category = 3,
+                            RSSI1 = 37,
+                            RSSI2 = 64,
+                            RSSI3 = 87,
+                            X = 35,
+                            Y = 55
                         },
                         new
                         {
                             ReferencepointId = 242,
-                            Category = 6,
-                            RSSI1 = 43,
-                            RSSI2 = 86,
-                            RSSI3 = 56,
-                            X = 9,
-                            Y = 47
+                            Category = 1,
+                            RSSI1 = 6,
+                            RSSI2 = 14,
+                            RSSI3 = 33,
+                            X = 52,
+                            Y = 66
                         },
                         new
                         {
                             ReferencepointId = 243,
-                            Category = 7,
-                            RSSI1 = 22,
-                            RSSI2 = 68,
-                            RSSI3 = 57,
-                            X = 98,
-                            Y = 38
+                            Category = 8,
+                            RSSI1 = 72,
+                            RSSI2 = 91,
+                            RSSI3 = 25,
+                            X = 90,
+                            Y = 22
                         },
                         new
                         {
                             ReferencepointId = 244,
-                            Category = 9,
-                            RSSI1 = 32,
-                            RSSI2 = 44,
-                            RSSI3 = 1,
-                            X = 45,
-                            Y = 64
+                            Category = 1,
+                            RSSI1 = 83,
+                            RSSI2 = 21,
+                            RSSI3 = 6,
+                            X = 46,
+                            Y = 22
                         },
                         new
                         {
                             ReferencepointId = 245,
-                            Category = 9,
-                            RSSI1 = 4,
-                            RSSI2 = 63,
-                            RSSI3 = 93,
-                            X = 87,
-                            Y = 57
+                            Category = 1,
+                            RSSI1 = 27,
+                            RSSI2 = 12,
+                            RSSI3 = 16,
+                            X = 75,
+                            Y = 88
                         },
                         new
                         {
                             ReferencepointId = 246,
-                            Category = 7,
-                            RSSI1 = 17,
-                            RSSI2 = 22,
-                            RSSI3 = 93,
-                            X = 40,
-                            Y = 67
+                            Category = 2,
+                            RSSI1 = 36,
+                            RSSI2 = 71,
+                            RSSI3 = 60,
+                            X = 94,
+                            Y = 82
                         },
                         new
                         {
                             ReferencepointId = 247,
-                            Category = 6,
-                            RSSI1 = 8,
-                            RSSI2 = 46,
-                            RSSI3 = 75,
-                            X = 71,
-                            Y = 43
+                            Category = 2,
+                            RSSI1 = 72,
+                            RSSI2 = 90,
+                            RSSI3 = 31,
+                            X = 18,
+                            Y = 3
                         },
                         new
                         {
                             ReferencepointId = 248,
-                            Category = 7,
-                            RSSI1 = 66,
-                            RSSI2 = 98,
-                            RSSI3 = 73,
-                            X = 82,
-                            Y = 2
+                            Category = 2,
+                            RSSI1 = 5,
+                            RSSI2 = 51,
+                            RSSI3 = 58,
+                            X = 83,
+                            Y = 12
                         },
                         new
                         {
                             ReferencepointId = 249,
-                            Category = 5,
-                            RSSI1 = 32,
-                            RSSI2 = 45,
-                            RSSI3 = 1,
-                            X = 43,
-                            Y = 55
+                            Category = 1,
+                            RSSI1 = 56,
+                            RSSI2 = 6,
+                            RSSI3 = 37,
+                            X = 50,
+                            Y = 53
                         });
                 });
 

@@ -17,15 +17,15 @@ namespace FruitFly.Repository.Configurations
             var rand = new Random();
             //250 heatmapdata for testing
             for (int i = 1; i < 250; i++)
-            {
-                entity.HasData(
-                    new Heatmap
-                    {
-                        HeatmapID = i,
-                        ReferencepointId = i
-                    }
-                    );
-            }
+                {
+                    entity.HasData(
+                        new Heatmap
+                        {
+                            HeatmapID = i,
+                            ReferencepointId = i
+                        }
+                        );
+                }
         }
     }
 }

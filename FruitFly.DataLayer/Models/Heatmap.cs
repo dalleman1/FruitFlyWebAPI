@@ -10,7 +10,7 @@ namespace FruitFly.Repository.Models
     {
         public int HeatmapID { get; set; }
        
-        [ForeignKey("Referencepoint")]
+        //[ForeignKey("Referencepoint")]
         public int ReferencepointId { get; set; }
         public Referencepoint Referencepoint { get; set; }
     }
